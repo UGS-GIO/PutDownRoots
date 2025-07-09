@@ -30,11 +30,22 @@ jobs:
         working-directory: exb/ArcGISExperienceBuilder/server
       - name: Run download script
         run: |
-          node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
-          ls -la  # This will show where the file is created
+            echo "Current directory contents:"
+            ls -la
+            echo "Checking if app exists in server/public/apps:"
+            ls -la server/public/apps/
+            echo "Running download script..."
+            node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')" || echo "Download script failed with exit code $?"
+            echo "After download script - checking for app.zip:"
+            ls -la
+            if [ -f "app.zip" ]; then
+             echo "app.zip found, size: $(du -h app.zip)"
+            else
+            echo "app.zip not found"
+            fi
         working-directory: exb/ArcGISExperienceBuilder
         env:
-          NODE_ENV: production
+         NODE_ENV: production
       - name: Unzip app zip
         run: |
           unzip -o -q app.zip -d app
