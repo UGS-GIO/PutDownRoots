@@ -17,35 +17,27 @@ jobs:
         run: unzip -q exb.zip -d exb
       - name: Copy Custom Themes
         run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
-      - name: Create App directory
-        run: mkdir public && cd public && mkdir apps && cd apps
-        working-directory: exb/ArcGISExperienceBuilder/server
-      - name: Copy apps
-        run: cp -r apps/* exb/ArcGISExperienceBuilder/server/public/apps
+
       - name: NPM install client folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/client
+
       - name: NPM install in server folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/server
+
+      - name: Build themes
+        run: npm run build:prod
+        working-directory: exb/ArcGISExperienceBuilder/client
+
       - name: Run download script
         run: |
-            echo "Current directory contents:"
-            ls -la
-            echo "Checking if app exists in server/public/apps:"
-            ls -la server/public/apps/
-            echo "Running download script..."
-            node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')" || echo "Download script failed with exit code $?"
-            echo "After download script - checking for app.zip:"
-            ls -la
-            if [ -f "app.zip" ]; then
-             echo "app.zip found, size: $(du -h app.zip)"
-            else
-            echo "app.zip not found"
-            fi
+            echo "Checking if theme was built:"
+            ls -la client/dist/themes/ || echo "No themes directory in dist"
+            node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
         working-directory: exb/ArcGISExperienceBuilder
         env:
-         NODE_ENV: production
+            NODE_ENV: production
       - name: Unzip app zip
         run: |
           unzip -o -q app.zip -d app
