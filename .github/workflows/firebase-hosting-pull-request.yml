@@ -50,8 +50,23 @@ jobs:
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/server
       - name: Build themes and widgets
-        run: cross-env NODE_ENV=production webpack --mode production
+        run: npm run build:prod
         working-directory: exb/ArcGISExperienceBuilder/client
+
+      - name: Copy built theme to expected location
+        run: |
+            echo "Checking dist-prod contents:"
+            ls -la client/dist-prod/themes/ || echo "No themes in dist-prod"
+            if [ -d "client/dist-prod/themes/roots_theme" ]; then
+            echo "Creating dist/themes directory and copying roots_theme..."
+            mkdir -p client/dist/themes
+            cp -r client/dist-prod/themes/roots_theme client/dist/themes/
+            echo "Theme copied successfully:"
+            ls -la client/dist/themes/roots_theme/
+            else
+            echo "roots_theme not found in dist-prod/themes"
+            fi
+        working-directory: exb/ArcGISExperienceBuilder
       - name: Check build results
         run: |
             echo "Checking if theme CSS was built:"
