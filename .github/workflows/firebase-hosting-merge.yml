@@ -13,15 +13,42 @@ jobs:
         run: curl -o exb.zip "$(curl -s 'https://downloads.arcgis.com/dms/rest/download/secured/arcgis-experience-builder-1.17.zip?f=json&folder=software%2FExperienceBuilder%2F1.17' | python3 -c "import sys, json; print(json.load(sys.stdin)['url'])")"
       - name: Unzip Experience Builder
         run: unzip -q exb.zip -d exb
-      - name: Build themes
+      - name: Copy Custom Themes
+        run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
+      - name: Create App directory
+        run: mkdir public && cd public && mkdir apps && cd apps
+        working-directory: exb/ArcGISExperienceBuilder/server
+      - name: Copy apps
+        run: cp -r apps/* exb/ArcGISExperienceBuilder/server/public/apps
+      - name: NPM install client folder
+        run: npm ci
+        working-directory: exb/ArcGISExperienceBuilder/client
+      - name: NPM install in server folder
+        run: npm ci
+        working-directory: exb/ArcGISExperienceBuilder/server
+      - name: Build themes and widgets
         run: npm run build:prod
         working-directory: exb/ArcGISExperienceBuilder/client
-
+      - name: Copy built theme to expected location
+        run: |
+            echo "Checking dist-prod contents:"
+            ls -la client/dist-prod/themes/ || echo "No themes in dist-prod"
+            if [ -d "client/dist-prod/themes/roots_theme" ]; then
+            echo "Creating dist/themes directory and copying roots_theme..."
+            mkdir -p client/dist/themes
+            cp -r client/dist-prod/themes/roots_theme client/dist/themes/
+            echo "Theme copied successfully:"
+            ls -la client/dist/themes/roots_theme/
+            else
+            echo "roots_theme not found in dist-prod/themes"
+            fi
+        working-directory: exb/ArcGISExperienceBuilder
       - name: Run download script
         run: |
-            echo "Checking if theme was built:"
-            ls -la client/dist/themes/ || echo "No themes directory in dist"
+            echo "Running download script..."
             node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
+            echo "Checking for app.zip:"
+            ls -la app.zip || echo "app.zip not found"
         working-directory: exb/ArcGISExperienceBuilder
         env:
             NODE_ENV: production
