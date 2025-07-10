@@ -49,8 +49,8 @@ jobs:
       - name: NPM install in server folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/server
-      - name: Build themes and widgets (continue on theme errors)
-        run: npm run build:prod || true
+      - name: Build themes and widgets
+        run: cross-env NODE_ENV=production webpack --mode production
         working-directory: exb/ArcGISExperienceBuilder/client
       - name: Check build results
         run: |
