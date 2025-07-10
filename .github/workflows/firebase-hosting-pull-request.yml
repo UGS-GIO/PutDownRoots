@@ -17,6 +17,13 @@ jobs:
         run: unzip -q exb.zip -d exb
       - name: Copy Custom Themes
         run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
+      - name: Fix thumbnail case
+        run: |
+            if [ -f "client/your-extensions/themes/roots_theme/thumbnail.PNG" ]; then
+            cp client/your-extensions/themes/roots_theme/thumbnail.PNG client/your-extensions/themes/roots_theme/thumbnail.png
+            echo "Copied thumbnail.PNG to thumbnail.png"
+            fi
+        working-directory: exb/ArcGISExperienceBuilder
       - name: Create App directory
         run: mkdir public && cd public && mkdir apps && cd apps
         working-directory: exb/ArcGISExperienceBuilder/server
