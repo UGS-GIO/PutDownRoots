@@ -15,31 +15,74 @@ jobs:
         run: curl -o exb.zip "$(curl -s 'https://downloads.arcgis.com/dms/rest/download/secured/arcgis-experience-builder-1.17.zip?f=json&folder=software%2FExperienceBuilder%2F1.17' | python3 -c "import sys, json; print(json.load(sys.stdin)['url'])")"
       - name: Unzip Experience Builder
         run: unzip -q exb.zip -d exb
-      # - name: Copy Custom Widgets
-      # run: cp -r widgets/* exb/ArcGISExperienceBuilder/client/your-extensions/widgets
-      # - name: Copy Custom Themes
-      # run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
+      - name: Copy Custom Themes
+        run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
+      - name: Fix thumbnail case
+        run: |
+            if [ -f "client/your-extensions/themes/roots_theme/thumbnail.PNG" ]; then
+            cp client/your-extensions/themes/roots_theme/thumbnail.PNG client/your-extensions/themes/roots_theme/thumbnail.png
+            echo "Copied thumbnail.PNG to thumbnail.png"
+            fi
+        working-directory: exb/ArcGISExperienceBuilder
       - name: Create App directory
         run: mkdir public && cd public && mkdir apps && cd apps
         working-directory: exb/ArcGISExperienceBuilder/server
       - name: Copy apps
         run: cp -r apps/* exb/ArcGISExperienceBuilder/server/public/apps
+      - name: Debug app directory contents
+        run: |
+          echo "Contents of apps/0 in repository:"
+          ls -la apps/0/
+          echo "Contents of apps/0 after copying:"
+          ls -la exb/ArcGISExperienceBuilder/server/public/apps/0/
+        working-directory: .
+      - name: Debug - Check theme files
+        run: |
+          echo "Contents of your-extensions/themes:"
+          ls -la client/your-extensions/themes/ || echo "No themes directory"
+          echo "Contents of roots_theme:"
+          ls -la client/your-extensions/themes/roots_theme/ || echo "No roots_theme directory"
+        working-directory: exb/ArcGISExperienceBuilder
       - name: NPM install client folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/client
       - name: NPM install in server folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/server
-      - name: Build widgets - dev
-        run: npm run build:dev
-        working-directory: exb/ArcGISExperienceBuilder/client
-      - name: Build widgets
+      - name: Build themes and widgets
         run: npm run build:prod
         working-directory: exb/ArcGISExperienceBuilder/client
+
+      - name: Copy built theme to expected location
+        run: |
+            echo "Checking dist-prod contents:"
+            ls -la client/dist-prod/themes/ || echo "No themes in dist-prod"
+            if [ -d "client/dist-prod/themes/roots_theme" ]; then
+            echo "Creating dist/themes directory and copying roots_theme..."
+            mkdir -p client/dist/themes
+            cp -r client/dist-prod/themes/roots_theme client/dist/themes/
+            echo "Theme copied successfully:"
+            ls -la client/dist/themes/roots_theme/
+            else
+            echo "roots_theme not found in dist-prod/themes"
+            fi
+        working-directory: exb/ArcGISExperienceBuilder
+      - name: Check build results
+        run: |
+            echo "Checking if theme CSS was built:"
+            ls -la client/dist/themes/ || echo "No themes directory in dist"
+            echo "Looking for roots_theme specifically:"
+            find client/dist -name "*roots_theme*" -type f 2>/dev/null || echo "No roots_theme files found in dist"
+            echo "Checking if OUTPUT_FOLDER affects location:"
+            ls -la client/dist-prod/themes/ 2>/dev/null || echo "No themes in dist-prod either"
+            find client/dist-prod -name "*roots_theme*" -type f 2>/dev/null || echo "No roots_theme files in dist-prod"
+        working-directory: exb/ArcGISExperienceBuilder
       - name: Run download script
         run: |
+          echo "Running download script..."
           node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip')"
-          ls -la  # This will show where the file is created
+          echo "Checking for app.zip:"
+          ls -la app.zip || echo "app.zip not found"
         working-directory: exb/ArcGISExperienceBuilder
         env:
           NODE_ENV: production
@@ -48,7 +91,6 @@ jobs:
           unzip -o -q app.zip -d app
           chmod -R 777 app
         working-directory: exb/ArcGISExperienceBuilder
-
       - name: Deploy to Firebase Preview Channel
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
