@@ -18,6 +18,14 @@ jobs:
       - name: Copy Custom Themes
         run: cp -r themes/* exb/ArcGISExperienceBuilder/client/your-extensions/themes
 
+      - name: Debug - Check theme files
+        run: |
+          echo "Contents of your-extensions/themes:"
+          ls -la client/your-extensions/themes/ || echo "No themes directory"
+          echo "Contents of roots_theme:"
+          ls -la client/your-extensions/themes/roots_theme/ || echo "No roots_theme directory"
+        working-directory: exb/ArcGISExperienceBuilder
+
       - name: NPM install client folder
         run: npm ci
         working-directory: exb/ArcGISExperienceBuilder/client
