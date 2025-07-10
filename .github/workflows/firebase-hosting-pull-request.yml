@@ -54,12 +54,13 @@ jobs:
         working-directory: exb/ArcGISExperienceBuilder/client
       - name: Check build results
         run: |
-          echo "Checking if theme CSS was built:"
-          ls -la client/dist/themes/ || echo "No themes directory in dist"
-          if [ -d "client/dist/themes/roots_theme" ]; then
-            echo "Theme directory exists:"
-            ls -la client/dist/themes/roots_theme/
-          fi
+            echo "Checking if theme CSS was built:"
+            ls -la client/dist/themes/ || echo "No themes directory in dist"
+            echo "Looking for roots_theme specifically:"
+            find client/dist -name "*roots_theme*" -type f 2>/dev/null || echo "No roots_theme files found in dist"
+            echo "Checking if OUTPUT_FOLDER affects location:"
+            ls -la client/dist-prod/themes/ 2>/dev/null || echo "No themes in dist-prod either"
+            find client/dist-prod -name "*roots_theme*" -type f 2>/dev/null || echo "No roots_theme files in dist-prod"
         working-directory: exb/ArcGISExperienceBuilder
       - name: Run download script
         run: |
