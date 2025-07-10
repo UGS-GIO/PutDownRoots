@@ -2,7 +2,7 @@
   "created": 1751912345280,
   "description": "",
   "id": "20",
-  "modified": 1752085992418,
+  "modified": 1752169922769,
   "owner": "rwillmore",
   "tags": "",
   "thumbnail": "thumbnail/thumbnail1703717652465.png",
@@ -13,8 +13,9 @@
     "Web Experience",
     "Ready To Use",
     "JavaScript",
-    "status: Published",
-    "version:1.17.0"
+    "status: Changed",
+    "version:1.17.0",
+    "publishVersion:1.17.0"
   ],
   "portalUrl": "https://utahdnr.maps.arcgis.com",
   "username": "rwillmore",
