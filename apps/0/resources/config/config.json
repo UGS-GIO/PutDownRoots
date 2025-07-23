@@ -232231,13 +232231,28 @@
             "autoProps": {
               "height": "AUTO"
             }
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17245",
+          "bbox": {
+            "width": "360px",
+            "height": "70px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_8837": {
@@ -317134,7 +317149,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_3",
+            "value": "page_41",
             "openType": "_self"
           }
         },
@@ -369417,7 +369432,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_21",
+            "value": "page_54",
             "openType": "_self"
           }
         },
@@ -373442,22 +373457,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -373487,7 +373500,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -373512,7 +373525,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -373531,22 +373544,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -373576,7 +373587,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -373601,7 +373612,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -388591,7 +388602,7 @@
       "label": "Button 279",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I PREPARE?",
+          "text": "EARTHQUAKE DAMAGES",
           "textExpression": null,
           "icon": {
             "data": {
@@ -388611,7 +388622,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_13",
+            "value": "page_40",
             "openType": "_self"
           }
         },
@@ -388620,7 +388631,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "#8b0e04",
+                "color": "var(--primary)",
                 "fillType": "fill"
               },
               "border": {
@@ -388649,7 +388660,7 @@
             },
             "hover": {
               "background": {
-                "color": "#bd1305",
+                "color": "var(--primary-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -388707,7 +388718,7 @@
       "label": "Button 280",
       "config": {
         "functionConfig": {
-          "text": "INTRODUCTION",
+          "text": "THE INTERMOUNTAIN WEST",
           "textExpression": null,
           "icon": {
             "data": {
@@ -388727,7 +388738,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_4",
+            "value": "page_41",
             "openType": "_self"
           }
         },
@@ -388736,7 +388747,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--info)",
+                "color": "var(--primary)",
                 "fillType": "fill"
               },
               "border": {
@@ -388765,7 +388776,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--info-600)",
+                "color": "var(--primary-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -388805,16 +388816,13 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
@@ -388850,7 +388858,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -388875,7 +388883,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -400575,7 +400583,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_13",
+            "value": "page_45",
             "openType": "_self"
           }
         },
@@ -400671,7 +400679,7 @@
       "label": "Button 314",
       "config": {
         "functionConfig": {
-          "text": "INTRODUCTION",
+          "text": "UTAH FAULTS AND EARTHQUAKES",
           "textExpression": null,
           "icon": {
             "data": {
@@ -400691,7 +400699,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_4",
+            "value": "page_39",
             "openType": "_self"
           }
         },
@@ -400700,7 +400708,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--info)",
+                "color": "var(--primary)",
                 "fillType": "fill"
               },
               "border": {
@@ -400729,7 +400737,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--info-600)",
+                "color": "var(--primary-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -400769,22 +400777,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -400814,7 +400820,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -400839,7 +400845,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -414197,7 +414203,7 @@
       "label": "Button 348",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I PREPARE?",
+          "text": "UTAH FAULTS AND EARTHQUAKES",
           "textExpression": null,
           "icon": {
             "data": {
@@ -414226,7 +414232,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "#8b0e04",
+                "color": "var(--primary)",
                 "fillType": "fill"
               },
               "border": {
@@ -414255,7 +414261,7 @@
             },
             "hover": {
               "background": {
-                "color": "#bd1305",
+                "color": "var(--primary-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -414411,22 +414417,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -414456,7 +414460,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -414481,7 +414485,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -421963,7 +421967,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_3",
+            "value": "page_41",
             "openType": "_self"
           }
         },
@@ -422038,7 +422042,7 @@
       "label": "Button 375",
       "config": {
         "functionConfig": {
-          "text": "WHAT SHOULD I DO?",
+          "text": "M 7.0 EARTHQUAKE SCENARIO",
           "textExpression": null,
           "icon": {
             "data": {
@@ -422059,7 +422063,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_21",
+            "value": "page_52",
             "openType": "_self"
           }
         },
@@ -422068,7 +422072,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--success)",
+                "color": "var(--danger)",
                 "fillType": "fill"
               },
               "border": {
@@ -422097,7 +422101,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--success-600)",
+                "color": "var(--danger-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -422138,22 +422142,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -422183,7 +422185,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -422208,7 +422210,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -431609,7 +431611,7 @@
       "label": "Button 400",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I CARE?",
+          "text": "UTAH BUILDING SAFETY",
           "textExpression": null,
           "icon": {
             "data": {
@@ -431630,7 +431632,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_3",
+            "value": "page_45",
             "openType": "_self"
           }
         },
@@ -431639,7 +431641,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--primary)",
+                "color": "var(--danger)",
                 "fillType": "fill"
               },
               "border": {
@@ -431668,7 +431670,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--primary-600)",
+                "color": "var(--danger-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -431705,7 +431707,7 @@
       "label": "Button 401",
       "config": {
         "functionConfig": {
-          "text": "WHAT SHOULD I DO?",
+          "text": "LIFE AFTER AN EARTHQUAKE",
           "textExpression": null,
           "icon": {
             "data": {
@@ -431726,7 +431728,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_21",
+            "value": "page_53",
             "openType": "_self"
           }
         },
@@ -431735,7 +431737,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--success)",
+                "color": "var(--danger)",
                 "fillType": "fill"
               },
               "border": {
@@ -431764,7 +431766,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--success-600)",
+                "color": "var(--danger-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -431805,22 +431807,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -431850,7 +431850,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -431875,7 +431875,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -439956,7 +439956,7 @@
       "label": "Button 423",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I CARE?",
+          "text": "M 7.0 EARTHQUAKE SCENARIO",
           "textExpression": null,
           "icon": {
             "data": {
@@ -439977,7 +439977,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_3",
+            "value": "page_52",
             "openType": "_self"
           }
         },
@@ -439986,7 +439986,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--primary)",
+                "color": "var(--danger)",
                 "fillType": "fill"
               },
               "border": {
@@ -440015,7 +440015,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--primary-600)",
+                "color": "var(--danger-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -440073,7 +440073,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_21",
+            "value": "page_54",
             "openType": "_self"
           }
         },
@@ -440152,22 +440152,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -440197,7 +440195,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -440222,7 +440220,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -455153,7 +455151,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_13",
+            "value": "page_45",
             "openType": "_self"
           }
         },
@@ -455228,7 +455226,7 @@
       "label": "Button 466",
       "config": {
         "functionConfig": {
-          "text": "WHAT ELSE SHOULD I KNOW?",
+          "text": "DURING A QUAKE",
           "textExpression": null,
           "icon": {
             "data": {
@@ -455249,7 +455247,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_29",
+            "value": "page_63",
             "openType": "_self"
           }
         },
@@ -455258,7 +455256,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--warning)",
+                "color": "var(--success)",
                 "fillType": "fill"
               },
               "border": {
@@ -455287,7 +455285,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--warning-600)",
+                "color": "var(--success-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -455353,22 +455351,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -455398,7 +455394,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -455423,7 +455419,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -465594,7 +465590,7 @@
       "label": "Button 507",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I PREPARE?",
+          "text": "BEFORE A QUAKE",
           "textExpression": null,
           "icon": {
             "data": {
@@ -465615,7 +465611,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_13",
+            "value": "page_54",
             "openType": "_self"
           }
         },
@@ -465624,7 +465620,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--danger)",
+                "color": "var(--success)",
                 "fillType": "fill"
               },
               "border": {
@@ -465653,7 +465649,7 @@
             },
             "hover": {
               "background": {
-                "color": "#bd1305",
+                "color": "var(--success-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -465690,7 +465686,7 @@
       "label": "Button 508",
       "config": {
         "functionConfig": {
-          "text": "WHAT ELSE SHOULD I KNOW?",
+          "text": "AFTER A QUAKE",
           "textExpression": null,
           "icon": {
             "data": {
@@ -465711,7 +465707,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_29",
+            "value": "page_64",
             "openType": "_self"
           }
         },
@@ -465720,7 +465716,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--warning)",
+                "color": "var(--success)",
                 "fillType": "fill"
               },
               "border": {
@@ -465749,7 +465745,7 @@
             },
             "hover": {
               "background": {
-                "color": "var(--warning-600)",
+                "color": "var(--success-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -465815,16 +465811,13 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
@@ -465860,7 +465853,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -465885,7 +465878,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -468800,7 +468793,7 @@
       "label": "Button 526",
       "config": {
         "functionConfig": {
-          "text": "WHAT ELSE?",
+          "text": "WHAT ELSE SHOULD I KNOW?",
           "textExpression": null,
           "icon": {
             "data": {
@@ -474084,7 +474077,7 @@
       "label": "Button 539",
       "config": {
         "functionConfig": {
-          "text": "WHY SHOULD I PREPARE?",
+          "text": "DURING A QUAKE",
           "textExpression": null,
           "icon": {
             "data": {
@@ -474105,7 +474098,7 @@
           },
           "linkParam": {
             "linkType": "PAGE",
-            "value": "page_13",
+            "value": "page_63",
             "openType": "_self"
           }
         },
@@ -474114,7 +474107,7 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--danger)",
+                "color": "var(--success)",
                 "fillType": "fill"
               },
               "border": {
@@ -474143,7 +474136,7 @@
             },
             "hover": {
               "background": {
-                "color": "#bd1305",
+                "color": "var(--success-600)",
                 "fillType": "fill"
               },
               "border": {
@@ -474305,22 +474298,20 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M7.5 15a.522.522 0 0 1-.527-.516V2.976L3.4 6.473a.535.535 0 0 1-.746 0 .508.508 0 0 1 0-.73L7.5 1l4.846 4.743a.508.508 0 0 1 0 .73.535.535 0 0 1-.746 0L8.027 2.976v11.508A.522.522 0 0 1 7.5 15Z\"></path></svg>",
+              "svg": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
               "properties": {
-                "filename": "Upwards arrow",
-                "originalName": "outlined/directional/arrow-up.svg",
-                "path": [
-                  "arrows",
-                  "arrowUp2"
-                ],
-                "isUploaded": false,
-                "inlineSvg": true
+                "filename": "1753208615193.png",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "glossary_icon.png",
+                "path": "${appResourceUrl}/images/icon_picker_in_setting/1753208615193.png",
+                "inlineSvg": false
               }
             },
             "position": "LEFT"
           },
           "linkParam": {
-            "linkType": "PAGE_TOP"
+            "linkType": "DIALOG",
+            "value": "dialog_5"
           }
         },
         "styleConfig": {
@@ -474350,7 +474341,7 @@
               },
               "iconProps": {
                 "color": "var(--black)",
-                "size": 20
+                "size": 24
               }
             },
             "hover": {
@@ -474375,7 +474366,7 @@
                 ]
               },
               "iconProps": {
-                "size": 20
+                "size": 24
               }
             }
           },
@@ -475291,6 +475282,20 @@
           "SMALL": "layout_8837"
         }
       }
+    },
+    "widget_17245": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4714",
+      "config": {
+        "text": "<p><strong style=\"font-size: 16px; color: var(--danger);\">Aftershocks.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> Earthquakes that follow the largest shock of an earthquake sequence. They are smaller than the “mainshock” and can occur over a period of weeks, months, or years. In general, the larger the mainshock, the larger and more numerous the aftershocks and the longer they will continue.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Crust.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">Earth’s outermost layer consisting of rigid rock that is 4 miles (oceanic crust) to 25 miles thick (continental crust).</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Epicenter.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> The point on Earth’s surface above where an earthquake begins at depth in the crust.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Fault.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> A fracture or crack along which the two sides slide past one another.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Fault rupture.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">The area of the earth through which fault movement occurs during an earthquake. For large quakes, the section of the fault that ruptures may be several hundred miles in length. Ruptures may or may not extend to the ground surface.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Fault scarp.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">A steep, linear break or slope formed where a fault ruptures the ground surface.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Fault segment.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">A part of a fault that is thought to rupture independently of other parts of the fault. One or more segments may rupture in a single earthquake.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Foreshock.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> An earthquake that precedes the largest quake (“main-shock”) of an earthquake sequence. Foreshocks may occur seconds to weeks before the mainshock. Not all main-shocks are preceded by foreshocks.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Intensity.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">A measure of ground shaking describing the local severity of an earthquake in terms of its effects on Earth’s surface and on humans and their structures. The Modified Mercalli Intensity scale, which uses Roman numerals, is one way scientists measure intensity.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Landslide.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">A mass movement of soil, mud, and (or) rock down a slope.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Liquefaction.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">The process that occurs when an earthquake shakes wet sandy soil until it behaves like a liquid, allowing sand to “boil up” to the surface, buildings to sink, or sloping ground to move.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Magnitude (M).</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">A number that represents the size of an earthquake, as determined from seismic instruments that record ground shaking. An increase of one unit of magnitude (for example, from 4.6 to 5.6) corresponds approximately to a thirty-fold increase in energy released (by definition, a two-unit increase in magnitude —for example, from 4.7 to 6.7—represents a thousand-fold increase in energy). Quakes smaller than magnitude 2.5 generally are not felt by humans.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Mainshock.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">The largest quake of an earthquake sequence, possibly preceded by smaller foreshocks and commonly followed by aftershocks.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Mantle.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">The layer of heated viscous rock between Earth’s crust and core.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Normal fault.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">An inclined fault along which the upper side moves downward relative to the lower side. Utah’s Wasatch fault is a good example.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Parapet.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> A wall-like barrier at the edge of a roof.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Retrofit.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> Strengthening an existing structure to improve its resistance to the effects of earthquakes.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Seiche.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">Waves “sloshing” in a lake as a result of earthquake ground shaking. Waves caused by landsliding into water or displacement of the lake bed are termed a surge. Waves caused by a displacement of the lake or ocean floor is called a tsunami.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Seismic hazard.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> The potential for damaging effects caused by earthquakes. The level of hazard depends on the magnitude and frequency of likely quakes, the distance from the fault that could cause quakes, and geologic conditions at a site.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Seismic risk.</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">The chance of injury, damage, or loss resulting from seismic hazards. There is no risk, even in a region of high seismic hazard, if there are no people or property that could be injured or damaged by a quake.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Seismometer.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> A sensitive instrument that detects and records seismic waves generated by an earthquake.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Strike-slip fault.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> A generally near-vertical fault along which the two sides move horizontally past each other. The most famous example is California’s San Andreas fault.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Surface faulting (surface fault rupture).</strong><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> </span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">Propagation of an earthquake- generating fault rupture to the surface, displacing the surface and forming a fault scarp.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Tectonic plate.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> Earth’s outer layers are composed of large, relatively strong “plates” that move relative to one another. However, faulting and earthquakes can also occur within a plate, such as along the Wasatch Front.</span></p><p><br></p><p><strong style=\"font-size: 16px; color: var(--danger);\">Tectonic subsidence.</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> Lowering and tilting of a basin floor on the down-dropped side of a fault during an earthquake.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17245"
     }
   },
   "widgetsManifest": {},
@@ -478443,7 +478448,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1753218016220,
+  "timestamp": 1753278130753,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
