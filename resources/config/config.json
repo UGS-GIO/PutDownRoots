@@ -400414,7 +400414,7 @@
       "version": "1.17.0",
       "label": "Text 3027",
       "config": {
-        "text": "<p><span style=\"font-size: 18px; color: rgb(0, 0, 0);\">Geologic evidence shows that the Wasatch fault and other faults in Utah have caused earthquakes of magnitude 6.5 to 7.0+. This section describes where earthquakes occur in Utah and explains how earthquakes will shake the ground and cause damage in other ways, such as liquefaction and landslides.</span></p>",
+        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Geologic evidence shows that the Wasatch fault and other faults in Utah have caused earthquakes of magnitude 6.5 to 7.0+. This section describes where earthquakes occur in Utah and explains how earthquakes will shake the ground and cause damage in other ways, such as liquefaction and landslides.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -401199,7 +401199,7 @@
       "version": "1.17.0",
       "label": "Text 3034",
       "config": {
-        "text": "<p><strong style=\"font-size: 24px; color: var(--danger);\">Fault Scarp Formation</strong><span style=\"color: var(--dark-800);\">﻿</span></p><p><br></p><p><span style=\"font-size: 18px; color: var(--light);\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown below, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"font-size: 15px; color: var(--light);\">Photo courtesy of Karl Steinbrugge.</em></p>",
+        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Fault Scarp Formation</strong><span style=\"color: var(--dark-800); font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p><br></p><p><span style=\"color: var(--light); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown below, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"color: var(--light); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Photo courtesy of Karl Steinbrugge.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -465980,7 +465980,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1754406718028,
+  "timestamp": 1754417330846,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
