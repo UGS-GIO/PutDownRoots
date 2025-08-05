@@ -375445,6 +375445,73 @@
           "color": "#767676",
           "width": "1px"
         }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
       }
     },
     "widget_9040": {
@@ -375773,7 +375840,7 @@
       "version": "1.17.0",
       "label": "Text 2238",
       "config": {
-        "text": "<p><strong style=\"font-size: 30px; color: var(--danger);\">﻿Case Study: 1962 M 5.8 Richmond, Utah, Earthquake</strong></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0);\">The August 30, 1962, </span><strong style=\"font-size: 18px; color: rgb(0, 0, 0);\">M</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0);\"> 5.8 Richmond earthquake caused severe property damage throughout the Cache Valley region, including Logan. One report noted that approximately 75 percent of homes in Richmond received some kind of damage from the earthquake.</span></p>",
+        "text": "<p><strong style=\"color: var(--danger); font-size: 30px; font-family: &quot;Avenir Next&quot;;\">﻿Case Study: 1962 M 5.8 Richmond, Utah, Earthquake</strong></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">The August 30, 1962, </span><strong style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">M</strong><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\"> 5.8 Richmond earthquake caused severe property damage throughout the Cache Valley region, including Logan. One report noted that approximately 75 percent of homes in Richmond received some kind of damage from the earthquake.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -375787,7 +375854,7 @@
       "version": "1.17.0",
       "label": "Text 2239",
       "config": {
-        "text": "<p style=\"text-align: right;\"><em style=\"color: rgb(0, 0, 0); font-size: 15px;\">Ground shaking from the 1962 </em><strong style=\"color: rgb(0, 0, 0); font-size: 15px;\"><em>M</em></strong><em style=\"color: rgb(0, 0, 0); font-size: 15px;\"> 5.8 Richmond earthquake caused this brick garage to collapse onto a car. Photo courtesy of  </em><span style=\"color: rgb(0, 0, 0); font-size: 15px;\">The Ogden Standard Examiner.</span></p>",
+        "text": "<p style=\"text-align: right;\"><em style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Ground shaking from the 1962 </em><strong style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"><em>M</em></strong><em style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> 5.8 Richmond earthquake caused this brick garage to collapse onto a car. Photo courtesy of </em><span style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">The Ogden Standard Examiner.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -383925,7 +383992,7 @@
       "version": "1.17.0",
       "label": "Text 2617",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 18px;\">Over 85 percent of Utah’s population lives within 15 miles of the Wasatch fault in the Wasatch Front area. More than 75 percent of Utah’s economy is concentrated in Salt Lake, Utah, Davis, and Weber counties—above the Wasatch fault, which projects beneath the developed Wasatch Front valleys. Most of Utah’s state government facilities are located within 15 miles of the Wasatch fault. Major interstate transportation corridors and the Salt Lake City International Airport are located within 15 miles of the Wasatch fault.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px;\">By 2030 the population in the Wasatch Front area is projected to grow to 2.8 million, a 50 percent increase over 2005. To meet the needs of the dramatically growing population along the Wasatch Front, $14.4 billion of new transit and highway infrastructure is planned over the next three decades.</span></p>",
+        "text": "<p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Over 85 percent of Utah’s population lives within 15 miles of the Wasatch fault in the Wasatch Front area. More than 75 percent of Utah’s economy is concentrated in Salt Lake, Utah, Davis, and Weber counties—above the Wasatch fault, which projects beneath the developed Wasatch Front valleys. Most of Utah’s state government facilities are located within 15 miles of the Wasatch fault. Major interstate transportation corridors and the Salt Lake City International Airport are located within 15 miles of the Wasatch fault.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">By 2030 the population in the Wasatch Front area is projected to grow to 2.8 million, a 50 percent increase over 2005. To meet the needs of the dramatically growing population along the Wasatch Front, $14.4 billion of new transit and highway infrastructure is planned over the next three decades.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -385246,7 +385313,7 @@
       "version": "1.17.0",
       "label": "Text 2647",
       "config": {
-        "text": "<p><strong style=\"font-size: 24px; color: var(--danger);\">Human Constructed Hazards</strong><span style=\"font-size: 20px; color: var(--dark-800);\">﻿</span><span style=\"font-size: 0.8125rem; color: var(--dark-800);\">﻿</span></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0);\">Earthquakes often damage roads and bridges, hindering rescue and recovery efforts and causing accidents. Water and sewer pipeline breaks can result in contamination of surface and groundwater. Damage to natural gas and electrical lines can cause fires and major service outages. Damage to petroleum pipelines can cause oil spills. Earthquakes in urban areas are often followed by destructive fires because gas lines break, electrical shorts ignite fires, damaged water tanks and broken pipes limit water for firefighting, and clogged roads and collapsed bridges hinder access for firefighters. Earthquake damage can cause spilling of hazardous materials from refineries and other chemical storage and distribution systems, research and industrial laboratories, manufacturing plants, and railroad tank cars. There was a chemical spill at a refinery near the epicenter of the 2020 </span><strong style=\"font-size: 18px; color: rgb(0, 0, 0);\">M</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0);\"> 5.7 Magna earthquake.</span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"color: rgb(0, 0, 0); font-size: 15px;\">Cracks and road damage along the Great Salt lake Marina access road likely from the 2020 </em><strong style=\"color: rgb(0, 0, 0); font-size: 15px;\"><em>M</em></strong><em style=\"color: rgb(0, 0, 0); font-size: 15px;\"> 5.7 Magna, Utah earthquake. Photo courtesy of the Utah Geological Survey.</em></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); font-size: 18px;\">Examples of human constructed hazards: </strong><span style=\"color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); font-size: 18px;\">damaged infrastructure, fires, dam failures, hazardous materials spills</span></p>",
+        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Human Constructed Hazards</strong><span style=\"color: var(--dark-800); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">﻿</span><span style=\"color: var(--dark-800); font-size: 0.8125rem; font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Earthquakes often damage roads and bridges, hindering rescue and recovery efforts and causing accidents. Water and sewer pipeline breaks can result in contamination of surface and groundwater. Damage to natural gas and electrical lines can cause fires and major service outages. Damage to petroleum pipelines can cause oil spills. Earthquakes in urban areas are often followed by destructive fires because gas lines break, electrical shorts ignite fires, damaged water tanks and broken pipes limit water for firefighting, and clogged roads and collapsed bridges hinder access for firefighters. Earthquake damage can cause spilling of hazardous materials from refineries and other chemical storage and distribution systems, research and industrial laboratories, manufacturing plants, and railroad tank cars. There was a chemical spill at a refinery near the epicenter of the 2020 </span><strong style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">M</strong><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\"> 5.7 Magna earthquake.</span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Cracks and road damage along the Great Salt lake Marina access road likely from the 2020 </em><strong style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"><em>M</em></strong><em style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> 5.7 Magna, Utah earthquake. Photo courtesy of the Utah Geological Survey.</em></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><strong style=\"font-size: 18px; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Examples of human constructed hazards: </strong><span style=\"font-size: 18px; background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">damaged infrastructure, fires, dam failures, hazardous materials spills</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -465980,7 +466047,7 @@
     }
   ],
   "customTheme": {},
-  "timestamp": 1754417330846,
+  "timestamp": 1754417950021,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
