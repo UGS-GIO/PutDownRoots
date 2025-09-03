@@ -11,7 +11,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1328,
-    "originalHeight": 513
+    "originalHeight": 513,
+    "referredIds": []
   },
   "1700666200974": {
     "originalName": "p.7-large photo_Magna- UGS.JPG",
@@ -25,7 +26,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 594,
-    "originalHeight": 742
+    "originalHeight": 742,
+    "referredIds": []
   },
   "1700696217499": {
     "originalName": "east-cache-fault-zone.JPG",
@@ -39,7 +41,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 979,
-    "originalHeight": 599
+    "originalHeight": 599,
+    "referredIds": []
   },
   "1700696586050": {
     "originalName": "fault-trench.JPG",
@@ -53,7 +56,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 977,
-    "originalHeight": 541
+    "originalHeight": 541,
+    "referredIds": []
   },
   "1701818001773": {
     "originalName": "unchecked.png",
@@ -67,7 +71,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 16,
-    "originalHeight": 16
+    "originalHeight": 16,
+    "referredIds": []
   },
   "1701824653500": {
     "originalName": "prepare-header.JPG",
@@ -81,7 +86,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1447,
-    "originalHeight": 504
+    "originalHeight": 504,
+    "referredIds": []
   },
   "1701824816992": {
     "originalName": "affectyou-header.JPG",
@@ -95,7 +101,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1861,
-    "originalHeight": 688
+    "originalHeight": 688,
+    "referredIds": []
   },
   "1701878327637": {
     "originalName": "Em Prep Checklist.jpg",
@@ -109,7 +116,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 428,
-    "originalHeight": 237
+    "originalHeight": 237,
+    "referredIds": []
   },
   "1701890421767": {
     "originalName": "Drop Cover Hold On No Cover.JPG",
@@ -123,7 +131,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1506,
-    "originalHeight": 729
+    "originalHeight": 729,
+    "referredIds": []
   },
   "1701890603929": {
     "originalName": "In Bed Cover Head 2.jpg",
@@ -137,7 +146,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1197,
-    "originalHeight": 750
+    "originalHeight": 750,
+    "referredIds": []
   },
   "1701894858462": {
     "originalName": "add-res-header.JPG",
@@ -151,7 +161,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1842,
-    "originalHeight": 562
+    "originalHeight": 562,
+    "referredIds": []
   },
   "1702316885593": {
     "originalName": "PDR-cover.png",
@@ -165,7 +176,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 232,
-    "originalHeight": 300
+    "originalHeight": 300,
+    "referredIds": []
   },
   "1702494430801": {
     "originalName": "whyshouldicareimg.jpg",
@@ -179,7 +191,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1283,
-    "originalHeight": 350
+    "originalHeight": 350,
+    "referredIds": []
   },
   "1702577308783": {
     "originalName": "faultscarp.gif",
@@ -193,7 +206,8 @@
     "fileFormat": "image/gif",
     "isUseCompress": false,
     "originalWidth": 600,
-    "originalHeight": 400
+    "originalHeight": 400,
+    "referredIds": []
   },
   "1702588150405": {
     "originalName": "banner-header.jpg",
@@ -207,7 +221,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1283,
-    "originalHeight": 350
+    "originalHeight": 350,
+    "referredIds": []
   },
   "1702599280946": {
     "originalName": "bannermedsiize.jpg",
@@ -221,7 +236,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1283,
-    "originalHeight": 350
+    "originalHeight": 350,
+    "referredIds": []
   },
   "1702599498934": {
     "originalName": "bannermedsiize2.jpg",
@@ -235,7 +251,8 @@
     "fileFormat": "image/jpeg",
     "isUseCompress": false,
     "originalWidth": 1283,
-    "originalHeight": 350
+    "originalHeight": 350,
+    "referredIds": []
   },
   "1702921192316": {
     "originalName": "bannerlarge-wasatch.png",
@@ -249,7 +266,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 6595,
-    "originalHeight": 1848
+    "originalHeight": 1848,
+    "referredIds": []
   },
   "1703009083204": {
     "originalName": "cover__1523287230561.png",
@@ -263,7 +281,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 6595,
-    "originalHeight": 1848
+    "originalHeight": 1848,
+    "referredIds": []
   },
   "1703027120245": {
     "originalName": "damagedropcover.png",
@@ -277,7 +296,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 6595,
-    "originalHeight": 1848
+    "originalHeight": 1848,
+    "referredIds": []
   },
   "1703099150982": {
     "originalName": "number_circle_one_fill_icon.png",
@@ -291,7 +311,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 256,
-    "originalHeight": 256
+    "originalHeight": 256,
+    "referredIds": []
   },
   "1703100699611": {
     "originalName": "number_circle_three_fill_icon.png",
@@ -305,7 +326,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 256,
-    "originalHeight": 256
+    "originalHeight": 256,
+    "referredIds": []
   },
   "1703101402540": {
     "originalName": "number_circle_four_fill_icon.png",
@@ -319,7 +341,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 256,
-    "originalHeight": 256
+    "originalHeight": 256,
+    "referredIds": []
   },
   "1703101785631": {
     "originalName": "number_circle_five_fill_icon.png",
@@ -333,7 +356,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 256,
-    "originalHeight": 256
+    "originalHeight": 256,
+    "referredIds": []
   },
   "1703103013547": {
     "originalName": "number_circle_six_fill_icon.png",
@@ -347,7 +371,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 256,
-    "originalHeight": 256
+    "originalHeight": 256,
+    "referredIds": []
   },
   "1703109329560": {
     "originalName": "computer_icon.png",
@@ -361,7 +386,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 512,
-    "originalHeight": 512
+    "originalHeight": 512,
+    "referredIds": []
   },
   "1703109845648": {
     "originalName": "twitter.png",
@@ -375,7 +401,8 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 512,
-    "originalHeight": 512
+    "originalHeight": 512,
+    "referredIds": []
   },
   "1706556535683": {
     "originalName": "menu-demo.PNG",
@@ -389,6 +416,118 @@
     "fileFormat": "image/png",
     "isUseCompress": false,
     "originalWidth": 35,
-    "originalHeight": 35
+    "originalHeight": 35,
+    "referredIds": []
+  },
+  "1754421831407": {
+    "originalName": "Roots_NHSM Utah.png",
+    "fileName": "1754421831407.png",
+    "size": 761770,
+    "url": "${appResourceUrl}/images/widget_10009/1754421831407.png",
+    "created": 1754421831407,
+    "resourcesPrefix": "images/widget_10009",
+    "referredIds": [],
+    "originId": "1754421831407",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 993,
+    "originalHeight": 882
+  },
+  "1754422926860": {
+    "originalName": "Roots_BuildingCodesTimeline.png",
+    "fileName": "1754422926860.png",
+    "size": 279239,
+    "url": "${appResourceUrl}/images/widget_13462/1754422926860.png",
+    "created": 1754422926860,
+    "resourcesPrefix": "images/widget_13462",
+    "referredIds": [],
+    "originId": "1754422926860",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1776,
+    "originalHeight": 547
+  },
+  "1754427667464": {
+    "file": {},
+    "fileName": "1754427667464.jpeg",
+    "url": "${appResourceUrl}/images/templates/1754427667464.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1754427652578",
+    "resourcesPrefix": "images/templates"
+  },
+  "1754427687356": {
+    "file": {},
+    "fileName": "1754427687356.jpeg",
+    "url": "${appResourceUrl}/images/templates/1754427687356.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1754427652578",
+    "resourcesPrefix": "images/templates"
+  },
+  "1754427703756": {
+    "file": {},
+    "fileName": "1754427703756.jpeg",
+    "url": "${appResourceUrl}/images/templates/1754427703756.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1754427652578",
+    "resourcesPrefix": "images/templates"
+  },
+  "1754430855133": {
+    "originalName": "Roots_ShelfLiner.jpg",
+    "fileName": "1754430855133.jpg",
+    "size": 37044,
+    "url": "${appResourceUrl}/images/widget_15532/1754430855133.jpg",
+    "created": 1754430855133,
+    "resourcesPrefix": "images/widget_15532",
+    "referredIds": [],
+    "originId": "1754430855133",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 512,
+    "originalHeight": 341
+  },
+  "1756128824302": {
+    "originalName": "pdr-fault.gif",
+    "fileName": "1756128824302.gif",
+    "size": 279135,
+    "url": "${appResourceUrl}/images/widget_9010/1756128824302.gif",
+    "created": 1756128824302,
+    "resourcesPrefix": "images/widget_9010",
+    "referredIds": [],
+    "originId": "1756128824302",
+    "fileFormat": "image/gif",
+    "isUseCompress": false,
+    "originalWidth": 600,
+    "originalHeight": 400
+  },
+  "1756128919791": {
+    "originalName": "iMac-USGS-Mockup.png",
+    "fileName": "1756128919791.png",
+    "size": 1100078,
+    "url": "${appResourceUrl}/images/widget_2187/1756128919791.png",
+    "created": 1756128919791,
+    "resourcesPrefix": "images/widget_2187",
+    "referredIds": [],
+    "originId": "1756128919791",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 2151,
+    "originalHeight": 1848
+  },
+  "1756925904058": {
+    "originalName": "unnamed.webp",
+    "fileName": "1756925904058.webp",
+    "size": 228702,
+    "url": "${appResourceUrl}/images/widget_10883/1756925904058.webp",
+    "created": 1756925904058,
+    "resourcesPrefix": "images/widget_10883",
+    "referredIds": [],
+    "originId": "1756925904058",
+    "fileFormat": "image/webp",
+    "isUseCompress": false,
+    "originalWidth": 1412,
+    "originalHeight": 911
   }
 }
