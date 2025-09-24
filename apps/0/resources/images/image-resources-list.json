@@ -529,5 +529,133 @@
     "isUseCompress": false,
     "originalWidth": 1412,
     "originalHeight": 911
+  },
+  "1758730440160": {
+    "originalName": "Mitigation_Endoresement_Report_tile.png",
+    "fileName": "1758730440160.png",
+    "size": 272554,
+    "url": "${appResourceUrl}/images/widget_17778/1758730440160.png",
+    "created": 1758730440160,
+    "resourcesPrefix": "images/widget_17778",
+    "referredIds": [],
+    "originId": "1758730440160",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 382,
+    "originalHeight": 497
+  },
+  "1758732884990": {
+    "originalName": "URM_March2021_pdf_tile.png",
+    "fileName": "1758732884990.png",
+    "size": 625853,
+    "url": "${appResourceUrl}/images/widget_17792/1758732884990.png",
+    "created": 1758732884990,
+    "resourcesPrefix": "images/widget_17792",
+    "referredIds": [
+      "1758732965730"
+    ],
+    "originId": "1758732884990",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 745,
+    "originalHeight": 521
+  },
+  "1758732911013": {
+    "file": {},
+    "fileName": "1758732911013.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758732911013.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758732884990",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758732924362": {
+    "file": {},
+    "fileName": "1758732924362.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758732924362.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758732884990",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758732965730": {
+    "file": {},
+    "fileName": "1758732965730.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758732965730.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758732884990",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758736764829": {
+    "originalName": "URM_Feb2022_pdf_tile.png",
+    "fileName": "1758736764829.png",
+    "size": 891451,
+    "url": "${appResourceUrl}/images/widget_17800/1758736764829.png",
+    "created": 1758736764829,
+    "resourcesPrefix": "images/widget_17800",
+    "referredIds": [],
+    "originId": "1758736764829",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 889,
+    "originalHeight": 568
+  },
+  "1758737310882": {
+    "originalName": "URM_Sep2024_pdf_tile.png",
+    "fileName": "1758737310882.png",
+    "size": 532205,
+    "url": "${appResourceUrl}/images/widget_17806/1758737310882.png",
+    "created": 1758737310882,
+    "resourcesPrefix": "images/widget_17806",
+    "referredIds": [
+      "1758737343297"
+    ],
+    "originId": "1758737310882",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 757,
+    "originalHeight": 537
+  },
+  "1758737321103": {
+    "file": {},
+    "fileName": "1758737321103.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758737321103.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758737310882",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758737334895": {
+    "file": {},
+    "fileName": "1758737334895.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758737334895.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758737310882",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758737343297": {
+    "file": {},
+    "fileName": "1758737343297.jpeg",
+    "url": "${appResourceUrl}/images/templates/1758737343297.jpeg",
+    "referredIds": [],
+    "fileFormat": "image/jpeg",
+    "originId": "1758737310882",
+    "resourcesPrefix": "images/templates"
+  },
+  "1758738062067": {
+    "originalName": "URM_Sep2024_pdf_tile_blurr_04.png",
+    "fileName": "1758738062067.png",
+    "size": 32734,
+    "url": "${appResourceUrl}/images/background_setting/1758738062067.png",
+    "created": 1758738062067,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1758738062067",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 199,
+    "originalHeight": 310
   }
 }
