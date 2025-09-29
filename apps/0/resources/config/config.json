@@ -221071,9 +221071,15 @@
           "type": "WIDGET",
           "widgetId": "widget_17244",
           "bbox": {
-            "width": "548px",
-            "height": 61
-          }
+            "width": "266px",
+            "height": "50.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          },
+          "isPending": true
         },
         "3": {
           "type": "WIDGET",
@@ -221082,12 +221088,26 @@
             "width": "542px",
             "height": "10.00px"
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_17875",
+          "bbox": {
+            "width": "286px",
+            "height": "400.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "2",
+        "4",
         "3",
         "1"
       ],
@@ -221174,8 +221194,8 @@
             "right": "0.0%",
             "top": "0.0%",
             "bottom": "30.6%",
-            "width": "50.00px",
-            "height": "50.00px"
+            "width": "40.00px",
+            "height": "40.00px"
           },
           "setting": {
             "autoProps": {
@@ -232651,6 +232671,61 @@
         "0",
         "1"
       ]
+    },
+    "layout_9159": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17876",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 10,
+            "width": 2,
+            "height": "30.00px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17877",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 10,
+            "height": 47.727272033691406
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "1",
+        "0"
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      }
     }
   },
   "exbVersion": "1.17.0",
@@ -232660,12 +232735,12 @@
     "lockLayout": false,
     "viewPortSize": {
       "LARGE": {
-        "width": 1024,
-        "height": 768
+        "width": 1600,
+        "height": 900
       },
       "MEDIUM": {
-        "width": 601,
-        "height": 962
+        "width": 834,
+        "height": 1112
       },
       "SMALL": {
         "width": 414,
@@ -241547,11 +241622,8 @@
       },
       "style": {
         "background": {
-          "color": "#ffffff",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
+          "color": null,
+          "fillType": "fill"
         }
       }
     },
@@ -256094,7 +256166,7 @@
       "version": "1.17.0",
       "label": "Text 518",
       "config": {
-        "text": "<p><strong style=\"font-size: 35px; color: var(--danger); font-family: &quot;Avenir Next&quot;;\">Glossary</strong></p>",
+        "text": "<p><strong style=\"font-size: 28px; color: var(--danger); font-family: &quot;Avenir Next&quot;;\">Glossary</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -256211,7 +256283,7 @@
               },
               "iconProps": {
                 "color": "#000000",
-                "size": 20
+                "size": 15
               }
             },
             "hover": {
@@ -264963,11 +265035,8 @@
       },
       "style": {
         "background": {
-          "color": "#ffffff",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
+          "color": null,
+          "fillType": "fill"
         }
       }
     },
@@ -316815,7 +316884,7 @@
       "version": "1.17.0",
       "label": "Text 1123",
       "config": {
-        "text": "<p style=\"text-align: left;\"><a href=\"page_4\" target=\"_self\" data-uniqueid=\"14a5e427_f837_150f_ed82_48e8640f0068\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_4%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; color: var(--dark-400); font-size: 18px;\">PUTTING DOWN ROOTS</a></p>",
+        "text": "<p style=\"text-align: left;\"><strong style=\"font-size: 18px; color: var(--dark-400); font-family: &quot;Avenir Next&quot;;\"><a href=\"page_4\" target=\"_self\" data-uniqueid=\"14a5e427_f837_150f_ed82_48e8640f0068\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_4%22%2C%22openType%22%3A%22_self%22%7D\">PUTTING DOWN ROOTS</a></strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -396905,11 +396974,8 @@
       "id": "widget_10515",
       "style": {
         "background": {
-          "color": "rgba(0,0,0,0)",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
+          "color": null,
+          "fillType": "fill"
         }
       },
       "layouts": {
@@ -419949,11 +420015,8 @@
       "id": "widget_13901",
       "style": {
         "background": {
-          "color": "rgba(0,0,0,0)",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
+          "color": null,
+          "fillType": "fill"
         }
       },
       "layouts": {
@@ -426960,11 +427023,8 @@
       "id": "widget_14592",
       "style": {
         "background": {
-          "color": "rgba(0,0,0,0)",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
+          "color": null,
+          "fillType": "fill"
         }
       },
       "layouts": {
@@ -441878,7 +441938,14 @@
         "border": {
           "type": "solid",
           "color": "var(--primary)",
-          "width": "5px"
+          "width": "0px"
+        },
+        "background": {
+          "color": "#e9e4d9",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
         }
       }
     },
@@ -472833,6 +472900,15 @@
         "DEFAULT": {
           "LARGE": "layout_9063"
         }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
       }
     },
     "widget_17706": {
@@ -473058,7 +473134,7 @@
       },
       "style": {
         "background": {
-          "color": "var(--dark)",
+          "color": "#ffffff",
           "fillType": "fill",
           "image": {
             "url": ""
@@ -473285,6 +473361,12 @@
       "layouts": {
         "DEFAULT": {
           "LARGE": "layout_9067"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
         }
       }
     },
@@ -475055,6 +475137,15 @@
       "layouts": {
         "DEFAULT": {
           "LARGE": "layout_9095"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
         }
       }
     },
@@ -477471,6 +477562,15 @@
             "originalName": "1-header.jpg",
             "imgSourceType": "BY_URL"
           }
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
         }
       }
     },
@@ -477490,7 +477590,7 @@
         "borderBottom": {
           "type": "solid",
           "color": "var(--primary)",
-          "width": "5px"
+          "width": "3px"
         }
       }
     },
@@ -477548,7 +477648,7 @@
               "borderBottom": {
                 "type": "solid",
                 "color": "var(--primary)",
-                "width": "2px"
+                "width": null
               }
             }
           }
@@ -477635,12 +477735,21 @@
         "background": {
           "fillType": "fill",
           "image": {
-            "url": "https://geology.utah.gov/apps/roots/images/1-header.jpg",
-            "originalUrl": "https://geology.utah.gov/apps/roots/images/1-header.jpg",
-            "fileName": "1-header.jpg",
-            "originalName": "1-header.jpg",
+            "url": "https://geology.utah.gov/apps/roots/images/affectyou-header.jpg",
+            "originalUrl": "https://geology.utah.gov/apps/roots/images/affectyou-header.jpg",
+            "fileName": "affectyou-header.jpg",
+            "originalName": "affectyou-header.jpg",
             "imgSourceType": "BY_URL"
           }
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
         }
       }
     },
@@ -477660,7 +477769,7 @@
         "borderBottom": {
           "type": "solid",
           "color": "var(--danger)",
-          "width": "5px"
+          "width": "3px"
         }
       }
     },
@@ -477718,7 +477827,7 @@
               "borderBottom": {
                 "type": "solid",
                 "color": "var(--primary)",
-                "width": "2px"
+                "width": null
               }
             }
           }
@@ -477765,12 +477874,21 @@
         "background": {
           "fillType": "fill",
           "image": {
-            "url": "https://geology.utah.gov/apps/roots/images/1-header.jpg",
-            "originalUrl": "https://geology.utah.gov/apps/roots/images/1-header.jpg",
-            "fileName": "1-header.jpg",
-            "originalName": "1-header.jpg",
+            "url": "https://geology.utah.gov/apps/roots/images/prepare-header.jpg",
+            "originalUrl": "https://geology.utah.gov/apps/roots/images/prepare-header.jpg",
+            "fileName": "prepare-header.jpg",
+            "originalName": "prepare-header.jpg",
             "imgSourceType": "BY_URL"
           }
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
         }
       }
     },
@@ -477790,7 +477908,7 @@
         "borderBottom": {
           "type": "solid",
           "color": "var(--success)",
-          "width": "5px"
+          "width": "3px"
         }
       }
     },
@@ -477848,13 +477966,141 @@
               "borderBottom": {
                 "type": "solid",
                 "color": "var(--primary)",
-                "width": "2px"
+                "width": "0px"
               }
             }
           }
         }
       },
       "id": "widget_17873"
+    },
+    "widget_17875": {
+      "uri": "widgets/layout/row/",
+      "version": "1.17.0",
+      "label": "Row 1574",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_17875",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_9159"
+        }
+      }
+    },
+    "widget_17876": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 657",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"m8.745 8 6.1 6.1a.527.527 0 1 1-.745.746L8 8.746l-6.1 6.1a.527.527 0 1 1-.746-.746l6.1-6.1-6.1-6.1a.527.527 0 0 1 .746-.746l6.1 6.1 6.1-6.1a.527.527 0 0 1 .746.746L8.746 8Z\"></path></svg>",
+              "properties": {
+                "filename": "Close",
+                "originalName": "outlined/editor/close.svg",
+                "path": [
+                  "general",
+                  "close"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "transparent",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "transparent",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#e3e3e3",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#000000",
+                "size": 15
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#0065a4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--danger)",
+                "size": 20
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17876"
+    },
+    "widget_17877": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4868",
+      "config": {
+        "text": "<p><strong style=\"font-size: 28px; color: var(--danger); font-family: &quot;Avenir Next&quot;;\">Glossary</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17877"
     }
   },
   "widgetsManifest": {},
@@ -481078,11 +481324,11 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1703717652465.png",
     "favicon": {
-      "svg": "${appResourceUrl}/images/icon_picker_in_setting/1758053775520.png",
+      "svg": "${appResourceUrl}/images/icon_picker_in_setting/1758747960658.webp",
       "properties": {
-        "filename": "1758053775520.png",
-        "originalName": "UGS_logo_notext.png",
-        "path": "${appResourceUrl}/images/icon_picker_in_setting/1758053775520.png",
+        "filename": "1758747960658.webp",
+        "originalName": "UGS_favicon.webp",
+        "path": "${appResourceUrl}/images/icon_picker_in_setting/1758747960658.webp",
         "isUploaded": true,
         "inlineSvg": false
       }
@@ -481170,7 +481416,7 @@
       "secondary": "#363636"
     }
   },
-  "timestamp": 1758744475324,
+  "timestamp": 1758815708008,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
