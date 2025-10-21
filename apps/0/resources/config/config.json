@@ -2116,10 +2116,33 @@
             "hCenter": false,
             "lockParent": true
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17883",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0.0000%",
+            "width": "43.00px",
+            "height": "43.00px"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "setting": {
         "lockDescendants": true
@@ -17514,10 +17537,33 @@
             "hCenter": false,
             "lockParent": true
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17882",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0.0000%",
+            "width": "43.00px",
+            "height": "43.00px"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "setting": {
         "lockDescendants": true
@@ -17584,10 +17630,33 @@
             "hCenter": false,
             "lockParent": true
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17881",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0.0000%",
+            "width": "43.00px",
+            "height": "43.00px"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true,
+              "right": false,
+              "left": true
+            }
+          }
         }
       },
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "setting": {
         "lockDescendants": true
@@ -17599,8 +17668,8 @@
           "type": "WIDGET",
           "widgetId": "widget_2258",
           "bbox": {
-            "width": "360px",
-            "height": "70px"
+            "width": "533px",
+            "height": "178px"
           },
           "setting": {
             "autoProps": {
@@ -157418,8 +157487,8 @@
           "type": "WIDGET",
           "widgetId": "widget_9006",
           "bbox": {
-            "width": "473px",
-            "height": "398px"
+            "width": "1455px",
+            "height": "188px"
           },
           "setting": {
             "autoProps": {
@@ -157463,17 +157532,17 @@
           }
         },
         "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_9009",
+          "type": "SECTION",
+          "sectionId": "section_50",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "CUSTOM"
             }
           },
           "bbox": {
             "left": 8,
             "width": 4,
-            "height": "398px"
+            "height": "400.00px"
           }
         }
       },
@@ -157522,23 +157591,6 @@
       "setting": {
         "justifyContent": "center"
       }
-    },
-    "layout_5297": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_9010",
-          "bbox": {
-            "width": "883px",
-            "height": "400.00px"
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
     },
     "layout_5298": {
       "content": {
@@ -160870,6 +160922,15 @@
           "bbox": {
             "width": "145px",
             "height": "397px"
+          },
+          "isPending": true
+        },
+        "3": {
+          "type": "SECTION",
+          "sectionId": "section_49",
+          "bbox": {
+            "width": "709px",
+            "height": "500px"
           }
         }
       },
@@ -160877,6 +160938,7 @@
       "label": "Default",
       "order": [
         "1",
+        "3",
         "2"
       ],
       "setting": {
@@ -163732,17 +163794,12 @@
             }
           }
         },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_9732",
+        "3": {
+          "type": "SECTION",
+          "sectionId": "section_51",
           "bbox": {
-            "width": "318px",
+            "width": "375px",
             "height": "250.00px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "CUSTOM"
-            }
           }
         }
       },
@@ -163750,7 +163807,7 @@
       "label": "Default",
       "order": [
         "1",
-        "2"
+        "3"
       ],
       "setting": {
         "space": 10,
@@ -167324,7 +167381,8 @@
             "autoProps": {
               "height": "CUSTOM"
             }
-          }
+          },
+          "isPending": true
         },
         "1": {
           "type": "WIDGET",
@@ -167338,11 +167396,20 @@
               "height": "AUTO"
             }
           }
+        },
+        "2": {
+          "type": "SECTION",
+          "sectionId": "section_52",
+          "bbox": {
+            "width": "500px",
+            "height": "330.00px"
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
+        "2",
         "0",
         "1"
       ],
@@ -170950,7 +171017,8 @@
             "autoProps": {
               "height": "CUSTOM"
             }
-          }
+          },
+          "isPending": true
         },
         "12": {
           "type": "WIDGET",
@@ -171058,6 +171126,14 @@
             "width": "300px",
             "height": "30.00px"
           }
+        },
+        "21": {
+          "type": "SECTION",
+          "sectionId": "section_53",
+          "bbox": {
+            "width": "500px",
+            "height": "600.00px"
+          }
         }
       },
       "type": "COLUMN",
@@ -171076,6 +171152,7 @@
       "order": [
         "9",
         "10",
+        "21",
         "11",
         "12",
         "8",
@@ -174451,7 +174528,8 @@
             "autoProps": {
               "height": "CUSTOM"
             }
-          }
+          },
+          "isPending": true
         },
         "12": {
           "type": "WIDGET",
@@ -174538,6 +174616,14 @@
             "width": "300px",
             "height": "15.00px"
           }
+        },
+        "19": {
+          "type": "SECTION",
+          "sectionId": "section_54",
+          "bbox": {
+            "width": "375px",
+            "height": "300.00px"
+          }
         }
       },
       "type": "COLUMN",
@@ -174556,6 +174642,7 @@
       "order": [
         "9",
         "10",
+        "19",
         "11",
         "12",
         "6",
@@ -192995,11 +193082,37 @@
             "hCenter": false
           },
           "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17878",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          }
         }
       },
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "label": "Default"
     },
@@ -194836,11 +194949,37 @@
             "hCenter": false
           },
           "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17879",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          }
         }
       },
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "label": "Default"
     },
@@ -196682,7 +196821,7 @@
             "left": "37.00px",
             "width": "65.4%",
             "height": "47px",
-            "right": "74px",
+            "right": "74.00px",
             "top": "50%",
             "bottom": "3px"
           },
@@ -196725,12 +196864,37 @@
             "width": "70.00px",
             "height": "30.00px"
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17880",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "80.00px",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "55.7%",
+            "height": "100.0%"
+          }
         }
       },
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "label": "Default"
     },
@@ -221220,8 +221384,8 @@
           "type": "WIDGET",
           "widgetId": "widget_10871",
           "bbox": {
-            "width": "451px",
-            "height": 728
+            "width": "353px",
+            "height": "66px"
           },
           "setting": {
             "autoProps": {
@@ -229379,6 +229543,11 @@
           "bbox": {
             "width": "800px",
             "height": "150.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
@@ -229476,11 +229645,11 @@
           "widgetId": "widget_17665",
           "bbox": {
             "width": "400px",
-            "height": "186px"
+            "height": "150.00px"
           },
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "CUSTOM"
             }
           }
         }
@@ -229554,11 +229723,11 @@
           "widgetId": "widget_17671",
           "bbox": {
             "width": "400px",
-            "height": "186px"
+            "height": "150.00px"
           },
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "CUSTOM"
             }
           }
         }
@@ -229632,11 +229801,11 @@
           "widgetId": "widget_17674",
           "bbox": {
             "width": "400px",
-            "height": "186.00px"
+            "height": "150.00px"
           },
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "CUSTOM"
             }
           }
         }
@@ -232726,21 +232895,287 @@
           }
         }
       }
+    },
+    "layout_9160": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9165": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9167": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9171": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9173": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9175": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_9177": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_9178": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_9179": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_9181": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17884",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9182": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17885",
+          "bbox": {
+            "width": "300px",
+            "height": "300.00px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9183": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17886",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9184": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17887",
+          "bbox": {
+            "width": "300px",
+            "height": "300.00px"
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9185": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17889",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "34.0%",
+            "width": "100%",
+            "height": "566.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9187": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17890",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "34.0%",
+            "width": "100%",
+            "height": "566.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM",
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9188": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17891",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "14.2%",
+            "width": "100%",
+            "height": "275.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9189": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17892",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "14.2%",
+            "width": "100%",
+            "height": "275.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.17.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/roots_theme/",
   "forBuilderAttributes": {
-    "lockLayout": false,
+    "lockLayout": true,
     "viewPortSize": {
       "LARGE": {
-        "width": 1600,
-        "height": 900
+        "width": 1920,
+        "height": 1080
       },
       "MEDIUM": {
-        "width": 834,
-        "height": 1112
+        "width": 601,
+        "height": 962
       },
       "SMALL": {
         "width": 414,
@@ -257630,7 +258065,7 @@
       "version": "1.17.0",
       "label": "Text 541",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">﻿Prepared by the Utah Seismic Safety Commission (USSC), Utah Geological Survey (UGS), Utah Division of Emergency Management (UDEM), University of Utah Seismograph Stations (UUSS), and Structural Engineers Association of Utah (SEAU).</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Contributors:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> UGS—Steve Bowman, Gary Christenson, Jim Davis, Sandra Eldredge, Adam Hiscock, Michael Hylland, Emily Kleber, Mark Milligan; USGS—Christopher DuRoss; UDEM—Robert Carey, John Crofts, Wade Matthews; UUSS—Walter Arabasz, Kristine Pankow, Paul Roberson, Rebecca Sumsion; SEAU—Jessica Chappell, Barry Welliver; Envision Utah—Ryan Beck, Jason Brown, Ari Bruening, Leota Coyne, Robert Grow, Cody Lutz, Lisa Sun</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Reviewed by:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> University of Utah—Kristine Pankow, Keith Koper; USGS—Christopher DuRoss; FEMA—Sean McGowan; SCEC—Mark Benthien. </span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Production, design, and illustration by:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> First edition: Liz Paton and Stevie Emerson (UGS) based on template for the San Francisco Bay Region version of this handbook by Susan Mayfield (USGS). Second edition: improved on original template and additional design by John B. Good, Jessie Pierson and Jennifer Miller (UGS).</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Other illustrators:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> Pat Bagley; from San Francisco Bay Region version of this handbook (USGS), Todd Connor.</span></p><p><br></p><p><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Web experience design, development, and testing:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> UGS—Mackenzie Cope, Jackie DeWolfe, Abby Mangum.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">﻿Prepared by the Utah Seismic Safety Commission (USSC), Utah Geological Survey (UGS), Utah Division of Emergency Management (UDEM), University of Utah Seismograph Stations (UUSS), and Structural Engineers Association of Utah (SEAU).</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Contributors:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> UGS—Steve Bowman, Gary Christenson, Jim Davis, Sandra Eldredge, Adam Hiscock, Michael Hylland, Emily Kleber, Mark Milligan; USGS—Christopher DuRoss; UDEM—Robert Carey, John Crofts, Wade Matthews; UUSS—Walter Arabasz, Kristine Pankow, Paul Roberson, Rebecca Sumsion; SEAU—Jessica Chappell, Barry Welliver; Envision Utah—Ryan Beck, Jason Brown, Ari Bruening, Leota Coyne, Robert Grow, Cody Lutz, Lisa Sun</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Reviewed by:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> University of Utah—Kristine Pankow, Keith Koper; USGS—Christopher DuRoss; FEMA—Sean McGowan; SCEC—Mark Benthien. </span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Production, design, and illustration by:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> First edition: Liz Paton and Stevie Emerson (UGS) based on template for the San Francisco Bay Region version of this handbook by Susan Mayfield (USGS). Second edition: improved on original template and additional design by John B. Good, Jessie Pierson and Jennifer Miller (UGS).</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Other illustrators:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> Pat Bagley; from San Francisco Bay Region version of this handbook (USGS), Todd Connor.</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Web experience design, development, and testing:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> UGS—Mackenzie Cope, Jackie DeWolfe, Abby Mangum, Rachel Willmore.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -314659,7 +315094,7 @@
       "version": "1.17.0",
       "label": "Text 1116",
       "config": {
-        "text": "<p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 22px; color: var(--danger);\">Social Media</strong></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">U of U Seismograph Stations:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"5e4774c0_8c35_dd96_5b2b_f9ad455b0cff\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">@UUSSquake</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Utah Seismic Safety Commission:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UtahSeismic\" target=\"_blank\" data-uniqueid=\"c4b3170f_a900_021b_aee7_4abb0c4593be\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUtahSeismic%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">@UtahSeismic</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p>",
+        "text": "<p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: var(--danger); font-size: 22px; font-family: &quot;Avenir Next&quot;;\">Social Media</strong></p><p style=\"text-align: left; line-height: 1.5;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"5e4774c0_8c35_dd96_5b2b_f9ad455b0cff\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">@UUSSquake</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -369583,7 +370018,7 @@
       "version": "1.17.0",
       "label": "Text 1581",
       "config": {
-        "text": "<p style=\"line-height: 1.5; text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"aff08f91_1457_f3f4_9b08_192ceafa3d24\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">@UUSSquake</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">Utah Seismic Safety Commission:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UtahSeismic\" target=\"_blank\" data-uniqueid=\"be4b0493_6a37_5781_c5b8_95befe620608\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUtahSeismic%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">@UtahSeismic</a></p>",
+        "text": "<p style=\"text-align: left; line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\">U of U Seismograph Stations:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"aff08f91_1457_f3f4_9b08_192ceafa3d24\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px;\">@UUSSquake</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -380645,61 +381080,6 @@
       },
       "id": "widget_9008"
     },
-    "widget_9009": {
-      "uri": "widgets/layout/column/",
-      "version": "1.17.0",
-      "label": "Column 1739",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_9009",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_5297"
-        }
-      }
-    },
-    "widget_9010": {
-      "uri": "widgets/common/image/",
-      "version": "1.17.0",
-      "label": "Image 925",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_9010/1756128824302.gif",
-            "originalUrl": "${appResourceUrl}/images/widget_9010/1756128824302.gif",
-            "fileName": "1756128824302.gif",
-            "originalName": "pdr-fault.gif",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/gif",
-            "originalId": "1756128824302",
-            "isUseCompress": false,
-            "originalWidth": 600,
-            "originalHeight": 400
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_9010"
-    },
     "widget_9011": {
       "uri": "widgets/layout/row/",
       "version": "1.17.0",
@@ -384112,7 +384492,7 @@
     "widget_9391": {
       "uri": "widgets/common/image/",
       "version": "1.17.0",
-      "label": "Image 962",
+      "label": "Image: GIF",
       "config": {
         "functionConfig": {
           "altText": "",
@@ -387460,41 +387840,6 @@
         "placeholder": "Double click to edit text"
       },
       "id": "widget_9731"
-    },
-    "widget_9732": {
-      "uri": "widgets/common/image/",
-      "version": "1.17.0",
-      "label": "Image 998",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {
-            "linkType": "NONE",
-            "openType": "_self"
-          },
-          "scale": "Fit",
-          "imageParam": {
-            "url": "${appResourceUrl}/images/widget_9010/1756128824302.gif",
-            "originalUrl": "${appResourceUrl}/images/widget_9010/1756128824302.gif",
-            "fileName": "1756128824302.gif",
-            "originalName": "pdr-fault.gif",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/gif",
-            "originalId": "1756128824302",
-            "isUseCompress": false,
-            "originalWidth": 600,
-            "originalHeight": 400
-          },
-          "imageDisplayQualityMode": "ORIGINAL",
-          "imgSourceType": "",
-          "srcExpression": null,
-          "imageFillMode": "FIT"
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_9732",
-      "useDataSources": []
     },
     "widget_9733": {
       "uri": "widgets/layout/row/",
@@ -391530,7 +391875,7 @@
     "widget_10068": {
       "uri": "widgets/common/image/",
       "version": "1.17.0",
-      "label": "Image 1037",
+      "label": "Image Liquefaction gif",
       "config": {
         "functionConfig": {
           "altText": "",
@@ -395712,7 +396057,7 @@
     "widget_10467": {
       "uri": "widgets/common/image/",
       "version": "1.17.0",
-      "label": "Image 1076",
+      "label": "Image Liquefaction GIF",
       "config": {
         "functionConfig": {
           "altText": "",
@@ -399947,7 +400292,7 @@
     "widget_10800": {
       "uri": "widgets/common/image/",
       "version": "1.17.0",
-      "label": "Image 1112",
+      "label": "Image Liquefaction GIF",
       "config": {
         "functionConfig": {
           "altText": "",
@@ -402722,7 +403067,7 @@
       "version": "1.17.0",
       "label": "Text 2977",
       "config": {
-        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Fault Scarp Formation</strong><span style=\"color: var(--dark-800); font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p><br></p><p><span style=\"color: var(--light); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown below, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"color: var(--light); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Photo courtesy of Karl Steinbrugge.</em></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Fault Scarp Formation</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: var(--dark-800);\">﻿</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: var(--light);\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown above, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: var(--light);\">Photo courtesy of Karl Steinbrugge.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -407339,7 +407684,7 @@
       "version": "1.17.0",
       "label": "Text 3034",
       "config": {
-        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Fault Scarp Formation</strong><span style=\"color: var(--dark-800); font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p><br></p><p><span style=\"color: var(--light); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown below, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"color: var(--light); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Photo courtesy of Karl Steinbrugge.</em></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Fault Scarp Formation</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: var(--dark-800);\">﻿</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: var(--light);\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram to the left). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown above, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.5;\"><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: var(--light);\">Photo courtesy of Karl Steinbrugge.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -411912,7 +412257,7 @@
       "version": "1.17.0",
       "label": "Text 3179",
       "config": {
-        "text": "<p><strong style=\"font-size: 16px; color: var(--danger); font-family: &quot;Avenir Next&quot;;\">Fault Scarp Formation</strong><span style=\"font-size: 16px; color: var(--dark-800); font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p><br></p><p><span style=\"font-size: 14px; color: var(--light); font-family: &quot;Avenir Next&quot;;\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram above). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown below, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.2;\"><em style=\"font-size: 12px; color: var(--light); font-family: &quot;Avenir Next&quot;;\">Photo courtesy of Karl Steinbrugge.</em></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; color: var(--danger); font-size: 16px;\">Fault Scarp Formation</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: var(--dark-800); font-size: 16px;\">﻿</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: var(--light); font-size: 14px;\">In a large normal-faulting earthquake, the amount of vertical movement on the fault deep in Earth’s crust is sufficient to rupture and offset the ground surface, producing a steep break or fault scarp (see diagram above). Geologic evidence shows that individual prehistoric earthquakes on the Wasatch fault produced scarps 6 to 12 feet high. Similar-sized scarps have formed during historical surface-faulting earthquakes in the region, such as the scarp shown above, which formed during the 1954 magnitude 7.2 and 6.9 Fairview Peak and Dixie Valley earthquakes in central Nevada. Surface faulting from large earthquakes and aftershocks ruptured the surface near a small cabin (see photo). Over time, repeated movement on a normal fault eventually produces a mountain range on the uplifted crustal block (for example, the Wasatch Range) and a valley or basin on the down-dropped block (for example, Salt Lake Valley). </span></p><p><br></p><p style=\"line-height: 1.2;\"><em style=\"font-family: &quot;Avenir Next&quot;; color: var(--light); font-size: 12px;\">Photo courtesy of Karl Steinbrugge.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -430904,7 +431249,7 @@
       "version": "1.17.0",
       "label": "Text 3908",
       "config": {
-        "text": "<p><em style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Debris in the entryway to West Lake Junior High School in Saratoga Springs after the 2020 Magna, Utah, earthquake. Photo courtesy of Francisco Kjolseth, The Salt Lake Tribune.</em></p>",
+        "text": "<p><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">Debris in the entryway to West Lake Junior High School in Saratoga Springs after the </em><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\"><em>M </em></strong><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">5.7 2020 Magna, Utah, earthquake. Photo courtesy of Francisco Kjolseth, The Salt Lake Tribune.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -436056,7 +436401,7 @@
       "version": "1.17.0",
       "label": "Text 4097",
       "config": {
-        "text": "<p style=\"line-height: 1.2;\"><em style=\"font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Debris in the entryway to West Lake Junior High School in Saratoga Springs after the 2020 Magna, Utah, earthquake. Photo courtesy of Francisco Kjolseth, The Salt Lake Tribune.</em></p>",
+        "text": "<p style=\"line-height: 1.2;\"><em style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 12px;\">Debris in the entryway to West Lake Junior High School in Saratoga Springs after the </em><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 12px;\"><em>M </em></strong><em style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 12px;\">5.7 2020 Magna, Utah, earthquake. Photo courtesy of Francisco Kjolseth, The Salt Lake Tribune.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -458978,7 +459323,7 @@
       "version": "1.17.0",
       "label": "Text 4557",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"5ea715e8_9e37_84a8_c546_3d5afea538b9\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov</a><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> and at </span><a href=\"https://ussc.utah.gov\" target=\"_blank\" data-uniqueid=\"cf1a861e_3947_3da2_9d6a_76614de1adeb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fussc.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">ussc.utah.gov</a><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"5ea715e8_9e37_84a8_c546_3d5afea538b9\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">earthquakes.utah.gov</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -460258,7 +460603,7 @@
       "version": "1.17.0",
       "label": "Text 4629",
       "config": {
-        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"867256c5_c4f0_f5a2_fab3_16623d6140cb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">earthquakes.utah.gov</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\"> and at </span><a href=\"https://ussc.utah.gov\" target=\"_blank\" data-uniqueid=\"cca81c6e_6d66_ea17_f77f_b35aaf08b6f4\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fussc.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">ussc.utah.gov</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">.</span></p>",
+        "text": "<p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"867256c5_c4f0_f5a2_fab3_16623d6140cb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov</a><span style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0);\">.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -461523,7 +461868,7 @@
       "version": "1.17.0",
       "label": "Text 4701",
       "config": {
-        "text": "<p><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"757d62a1_0bf2_1f42_836b_888de2f1d441\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov</a><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> and at </span><a href=\"https://ussc.utah.gov\" target=\"_blank\" data-uniqueid=\"774a38ea_1311_f59c_ccef_9fea23a4d23b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fussc.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">ussc.utah.gov</a><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Contact your out-of-state contact to let them know of your status. They can relay information to other concerned family members and friends. Texting may be the most reliable form of communication during a disaster.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Additional earthquake science and preparedness information can be found at </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"757d62a1_0bf2_1f42_836b_888de2f1d441\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px;\">earthquakes.utah.gov</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\">.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -478101,6 +478446,693 @@
         "placeholder": "Double click to edit text"
       },
       "id": "widget_17877"
+    },
+    "widget_17878": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 658",
+      "config": {
+        "functionConfig": {
+          "textExpression": {
+            "name": "",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"\""
+              }
+            ]
+          },
+          "text": ""
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17878",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "mainDataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "rootDataSourceId": "dataSource_5",
+          "fields": []
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_17879": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 659",
+      "config": {
+        "functionConfig": {
+          "textExpression": {
+            "name": "",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"\""
+              }
+            ]
+          },
+          "text": ""
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17879",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "mainDataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "rootDataSourceId": "dataSource_5",
+          "fields": []
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_17880": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 660",
+      "config": {
+        "functionConfig": {
+          "textExpression": {
+            "name": "",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"\""
+              }
+            ]
+          },
+          "text": ""
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              },
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              }
+            },
+            "regular": {
+              "border": {
+                "type": "solid",
+                "color": "rgba(0,0,0,0)",
+                "width": "0px"
+              },
+              "background": {
+                "color": "rgba(0,0,0,0)",
+                "fillType": "fill"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17880",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "mainDataSourceId": "dataSource_5-d9c19bce2c734b55879bc21dfaddbafa",
+          "rootDataSourceId": "dataSource_5",
+          "fields": []
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_17881": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 661",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"m8.745 8 6.1 6.1a.527.527 0 1 1-.745.746L8 8.746l-6.1 6.1a.527.527 0 1 1-.746-.746l6.1-6.1-6.1-6.1a.527.527 0 0 1 .746-.746l6.1 6.1 6.1-6.1a.527.527 0 0 1 .746.746L8.746 8Z\"></path></svg>",
+              "properties": {
+                "filename": "Close",
+                "originalName": "outlined/editor/close.svg",
+                "path": [
+                  "general",
+                  "close"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "transparent",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "transparent",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#e3e3e3",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#000000",
+                "size": 13
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#0065a4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--danger)",
+                "size": 15
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17881"
+    },
+    "widget_17882": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 662",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"m8.745 8 6.1 6.1a.527.527 0 1 1-.745.746L8 8.746l-6.1 6.1a.527.527 0 1 1-.746-.746l6.1-6.1-6.1-6.1a.527.527 0 0 1 .746-.746l6.1 6.1 6.1-6.1a.527.527 0 0 1 .746.746L8.746 8Z\"></path></svg>",
+              "properties": {
+                "filename": "Close",
+                "originalName": "outlined/editor/close.svg",
+                "path": [
+                  "general",
+                  "close"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "transparent",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "transparent",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#e3e3e3",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#000000",
+                "size": 13
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#0065a4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--danger)",
+                "size": 15
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17882"
+    },
+    "widget_17883": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 663",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"m8.745 8 6.1 6.1a.527.527 0 1 1-.745.746L8 8.746l-6.1 6.1a.527.527 0 1 1-.746-.746l6.1-6.1-6.1-6.1a.527.527 0 0 1 .746-.746l6.1 6.1 6.1-6.1a.527.527 0 0 1 .746.746L8.746 8Z\"></path></svg>",
+              "properties": {
+                "filename": "Close",
+                "originalName": "outlined/editor/close.svg",
+                "path": [
+                  "general",
+                  "close"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "transparent",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "transparent",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#e3e3e3",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#000000",
+                "size": 13
+              }
+            },
+            "hover": {
+              "background": {
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#0065a4",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--danger)",
+                "size": 15
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17883"
+    },
+    "widget_17884": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3009",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17884",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9182"
+        }
+      }
+    },
+    "widget_17885": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1790",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "fileName": "1761054730416.png",
+            "originalName": "liquifaction_duringEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054730416",
+            "isUseCompress": false,
+            "originalWidth": 957,
+            "originalHeight": 783
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17885"
+    },
+    "widget_17886": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3010",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17886",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9184"
+        }
+      }
+    },
+    "widget_17887": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1791",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "fileName": "1761054710734.png",
+            "originalName": "liquifaction_beforeEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054710734",
+            "isUseCompress": false,
+            "originalWidth": 961,
+            "originalHeight": 798
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17887"
+    },
+    "widget_17889": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1792",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "fileName": "1761054710734.png",
+            "originalName": "liquifaction_beforeEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054710734",
+            "isUseCompress": false,
+            "originalWidth": 961,
+            "originalHeight": 798
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17889"
+    },
+    "widget_17890": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1793",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "fileName": "1761054730416.png",
+            "originalName": "liquifaction_duringEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054730416",
+            "isUseCompress": false,
+            "originalWidth": 957,
+            "originalHeight": 783
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17890"
+    },
+    "widget_17891": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1794",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054710734.png",
+            "fileName": "1761054710734.png",
+            "originalName": "liquifaction_beforeEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054710734",
+            "isUseCompress": false,
+            "originalWidth": 961,
+            "originalHeight": 798
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imageFillMode": "FIT",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17891"
+    },
+    "widget_17892": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1795",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1761054730416.png",
+            "fileName": "1761054730416.png",
+            "originalName": "liquifaction_duringEQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1761054730416",
+            "isUseCompress": false,
+            "originalWidth": 957,
+            "originalHeight": 783
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imageFillMode": "FIT",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17892"
     }
   },
   "widgetsManifest": {},
@@ -479282,6 +480314,263 @@
         "imgSourceType": "BY_URL"
       },
       "parent": "section_48"
+    },
+    "view_167": {
+      "id": "view_167",
+      "label": "1. Fault Scarp",
+      "layout": {
+        "MEDIUM": "layout_9160"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "fileName": "1760999161145.png",
+        "originalName": "1_FaultScarpDiagram.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999161145",
+        "isUseCompress": false,
+        "originalWidth": 610,
+        "originalHeight": 382
+      }
+    },
+    "view_171": {
+      "id": "view_171",
+      "label": "2. Fault Scarp photo",
+      "layout": {
+        "MEDIUM": "layout_9165"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "fileName": "1760999219055.png",
+        "originalName": "2_FaultScarpPhoto.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999219055",
+        "isUseCompress": false,
+        "originalWidth": 567,
+        "originalHeight": 377
+      }
+    },
+    "view_172": {
+      "id": "view_172",
+      "label": "3. Trench",
+      "layout": {
+        "MEDIUM": "layout_9167"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "fileName": "1760999241773.png",
+        "originalName": "3_Trench.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999241773",
+        "isUseCompress": false,
+        "originalWidth": 577,
+        "originalHeight": 387
+      }
+    },
+    "view_173": {
+      "id": "view_173",
+      "label": "View 127",
+      "layout": {
+        "LARGE": "layout_9171"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "fileName": "1760999161145.png",
+        "originalName": "1_FaultScarpDiagram.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999161145",
+        "isUseCompress": false,
+        "originalWidth": 610,
+        "originalHeight": 382
+      }
+    },
+    "view_174": {
+      "id": "view_174",
+      "label": "View 128",
+      "layout": {
+        "LARGE": "layout_9173"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "fileName": "1760999219055.png",
+        "originalName": "2_FaultScarpPhoto.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999219055",
+        "isUseCompress": false,
+        "originalWidth": 567,
+        "originalHeight": 377
+      }
+    },
+    "view_175": {
+      "id": "view_175",
+      "label": "View 129",
+      "layout": {
+        "LARGE": "layout_9175"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "fileName": "1760999241773.png",
+        "originalName": "3_Trench.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999241773",
+        "isUseCompress": false,
+        "originalWidth": 577,
+        "originalHeight": 387
+      }
+    },
+    "view_176": {
+      "id": "view_176",
+      "label": "View 130",
+      "layout": {
+        "SMALL": "layout_9177"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17885/1760999161145.png",
+        "fileName": "1760999161145.png",
+        "originalName": "1_FaultScarpDiagram.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999161145",
+        "isUseCompress": false,
+        "originalWidth": 610,
+        "originalHeight": 382
+      }
+    },
+    "view_177": {
+      "id": "view_177",
+      "label": "View 131",
+      "layout": {
+        "SMALL": "layout_9178"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17890/1760999219055.png",
+        "fileName": "1760999219055.png",
+        "originalName": "2_FaultScarpPhoto.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999219055",
+        "isUseCompress": false,
+        "originalWidth": 567,
+        "originalHeight": 377
+      }
+    },
+    "view_178": {
+      "id": "view_178",
+      "label": "View 132",
+      "layout": {
+        "SMALL": "layout_9179"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "originalUrl": "${appResourceUrl}/images/widget_17892/1760999241773.png",
+        "fileName": "1760999241773.png",
+        "originalName": "3_Trench.png",
+        "imgSourceType": "BY_UPLOAD",
+        "fileFormat": "image/png",
+        "originalId": "1760999241773",
+        "isUseCompress": false,
+        "originalWidth": 577,
+        "originalHeight": 387
+      }
+    },
+    "view_180": {
+      "id": "view_180",
+      "label": "View 134",
+      "layout": {
+        "LARGE": "layout_9181"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {}
+    },
+    "view_181": {
+      "id": "view_181",
+      "label": "View 135",
+      "layout": {
+        "LARGE": "layout_9183"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {}
+    },
+    "view_182": {
+      "id": "view_182",
+      "label": "View 136",
+      "layout": {
+        "MEDIUM": "layout_9185"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
+    },
+    "view_183": {
+      "id": "view_183",
+      "label": "View 137",
+      "layout": {
+        "MEDIUM": "layout_9187"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
+    },
+    "view_184": {
+      "id": "view_184",
+      "label": "View 138",
+      "layout": {
+        "SMALL": "layout_9188"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
+    },
+    "view_185": {
+      "id": "view_185",
+      "label": "View 139",
+      "layout": {
+        "SMALL": "layout_9189"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "backgroundIMage": {
+        "url": ""
+      }
     }
   },
   "sections": {
@@ -479467,7 +480756,14 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "offset": 5,
+        "size": 50
+      },
+      "dotsNav": {
+        "visible": false,
+        "position": "b",
+        "offset": 10
       }
     },
     "section_20": {
@@ -479482,7 +480778,9 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "size": 50,
+        "offset": 5
       }
     },
     "section_22": {
@@ -479497,16 +480795,18 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "offset": 0,
+        "size": 30
       }
     },
     "section_28": {
       "id": "section_28",
       "label": "Section 27",
       "views": [
-        "view_96",
         "view_97",
-        "view_98"
+        "view_98",
+        "view_96"
       ],
       "dotsNav": {
         "visible": false,
@@ -479515,16 +480815,18 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "size": 50,
+        "offset": 5
       }
     },
     "section_29": {
       "id": "section_29",
       "label": "Section 28",
       "views": [
-        "view_99",
         "view_100",
-        "view_101"
+        "view_101",
+        "view_99"
       ],
       "dotsNav": {
         "visible": false,
@@ -479533,16 +480835,18 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "size": 50,
+        "offset": 5
       }
     },
     "section_31": {
       "id": "section_31",
       "label": "Section 30",
       "views": [
-        "view_106",
         "view_107",
-        "view_108"
+        "view_108",
+        "view_106"
       ],
       "dotsNav": {
         "visible": false,
@@ -479551,7 +480855,9 @@
       "autoPlay": true,
       "interval": 5,
       "arrowsNav": {
-        "visible": true
+        "visible": true,
+        "size": 30,
+        "offset": 0
       }
     },
     "section_43": {
@@ -479576,12 +480882,12 @@
       },
       "dotsNav": {
         "visible": true,
-        "size": "7",
-        "offset": "22",
+        "size": 10,
+        "offset": 20,
         "spacing": "10"
       },
       "autoPlay": true,
-      "interval": 5
+      "interval": 3
     },
     "section_46": {
       "id": "section_46",
@@ -479597,12 +480903,12 @@
       },
       "dotsNav": {
         "visible": true,
-        "size": "7",
-        "offset": "22",
-        "spacing": "10"
+        "size": 10,
+        "offset": 18,
+        "spacing": 20
       },
       "autoPlay": true,
-      "interval": 5
+      "interval": 3
     },
     "section_47": {
       "id": "section_47",
@@ -479618,9 +480924,9 @@
       },
       "dotsNav": {
         "visible": true,
-        "size": "7",
-        "offset": "22",
-        "spacing": "10"
+        "size": 8,
+        "offset": 15,
+        "spacing": 10
       },
       "autoPlay": true,
       "interval": 5
@@ -479659,6 +480965,99 @@
           }
         ]
       }
+    },
+    "section_49": {
+      "id": "section_49",
+      "label": "Section 36",
+      "views": [
+        "view_167",
+        "view_171",
+        "view_172"
+      ],
+      "arrowsNav": {
+        "visible": false
+      },
+      "dotsNav": {
+        "visible": true,
+        "size": 10,
+        "offset": 20,
+        "spacing": 20
+      },
+      "autoPlay": true
+    },
+    "section_50": {
+      "id": "section_50",
+      "label": "Section 37",
+      "views": [
+        "view_173",
+        "view_174",
+        "view_175"
+      ],
+      "dotsNav": {
+        "visible": true,
+        "size": 10,
+        "offset": 20
+      },
+      "autoPlay": true
+    },
+    "section_51": {
+      "id": "section_51",
+      "label": "Section 38",
+      "views": [
+        "view_176",
+        "view_177",
+        "view_178"
+      ],
+      "autoPlay": true,
+      "dotsNav": {
+        "visible": true,
+        "offset": 10,
+        "spacing": 20
+      }
+    },
+    "section_52": {
+      "id": "section_52",
+      "label": "Section 39",
+      "views": [
+        "view_181",
+        "view_180"
+      ],
+      "dotsNav": {
+        "visible": true,
+        "offset": 10,
+        "size": 10
+      },
+      "autoPlay": true
+    },
+    "section_53": {
+      "id": "section_53",
+      "label": "Section 40",
+      "views": [
+        "view_182",
+        "view_183"
+      ],
+      "autoPlay": true,
+      "dotsNav": {
+        "visible": true,
+        "size": 10,
+        "offset": 20,
+        "spacing": 20
+      }
+    },
+    "section_54": {
+      "id": "section_54",
+      "label": "Section 41",
+      "views": [
+        "view_184",
+        "view_185"
+      ],
+      "autoPlay": true,
+      "dotsNav": {
+        "visible": true,
+        "size": 8,
+        "offset": 5,
+        "spacing": 20
+      }
     }
   },
   "dialogs": {
@@ -479667,7 +481066,6 @@
       "mode": "ANCHORED",
       "sizeMode": {
         "LARGE": {
-          "position": null,
           "width": "556px",
           "height": "173px"
         }
@@ -479687,11 +481085,11 @@
       "layout": {
         "LARGE": "layout_70"
       },
-      "index": 0,
+      "index": 20,
       "isSplash": false,
       "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FADE_IN",
+        "type": "NONE",
         "option": {
           "direction": null,
           "configType": "DEFAULT"
@@ -479712,7 +481110,8 @@
           10
         ],
         "unit": "px"
-      }
+      },
+      "blockPage": true
     },
     "dialog_4": {
       "id": "dialog_4",
@@ -479745,7 +481144,7 @@
         "LARGE": "layout_131",
         "SMALL": "layout_3288"
       },
-      "index": 3,
+      "index": 2,
       "isSplash": false,
       "label": "EQ in Utah Caption",
       "closeWhenClickOverlay": true
@@ -479844,11 +481243,11 @@
       "layout": {
         "LARGE": "layout_1158"
       },
-      "index": 2,
+      "index": 1,
       "isSplash": false,
-      "closeWhenClickOverlay": false,
+      "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FADE_IN",
+        "type": "NONE",
         "option": {
           "direction": null,
           "configType": "DEFAULT"
@@ -479896,11 +481295,11 @@
       "layout": {
         "LARGE": "layout_1160"
       },
-      "index": 1,
+      "index": 0,
       "isSplash": false,
       "closeWhenClickOverlay": true,
       "effect": {
-        "type": "FADE_IN",
+        "type": "NONE",
         "option": {
           "direction": null,
           "configType": "DEFAULT"
@@ -479993,7 +481392,7 @@
       "layout": {
         "LARGE": "layout_4696"
       },
-      "index": 4,
+      "index": 3,
       "isSplash": false,
       "label": "Menu 1D",
       "closeWhenClickOverlay": true,
@@ -480023,7 +481422,7 @@
       "layout": {
         "LARGE": "layout_4698"
       },
-      "index": 5,
+      "index": 4,
       "isSplash": false,
       "label": "Menu 1T",
       "closeWhenClickOverlay": true,
@@ -480062,7 +481461,7 @@
         "LARGE": "layout_4700",
         "SMALL": "layout_8827"
       },
-      "index": 12,
+      "index": 11,
       "isSplash": false,
       "label": "Menu: Care - Utah and Intermountain West",
       "closeWhenClickOverlay": true,
@@ -480093,7 +481492,7 @@
       "layout": {
         "LARGE": "layout_4702"
       },
-      "index": 6,
+      "index": 5,
       "isSplash": false,
       "label": "Menu 2D",
       "closeWhenClickOverlay": true,
@@ -480123,7 +481522,7 @@
       "layout": {
         "LARGE": "layout_4704"
       },
-      "index": 7,
+      "index": 6,
       "isSplash": false,
       "label": "Menu 2T",
       "closeWhenClickOverlay": true,
@@ -480153,7 +481552,7 @@
       "layout": {
         "LARGE": "layout_4706"
       },
-      "index": 8,
+      "index": 7,
       "isSplash": false,
       "label": "Menu 2M",
       "closeWhenClickOverlay": true,
@@ -480183,7 +481582,7 @@
       "layout": {
         "LARGE": "layout_4708"
       },
-      "index": 9,
+      "index": 8,
       "isSplash": false,
       "label": "Menu 3D",
       "closeWhenClickOverlay": true,
@@ -480213,7 +481612,7 @@
       "layout": {
         "LARGE": "layout_4710"
       },
-      "index": 10,
+      "index": 9,
       "isSplash": false,
       "label": "Menu 3T",
       "closeWhenClickOverlay": true,
@@ -480243,7 +481642,7 @@
       "layout": {
         "LARGE": "layout_4712"
       },
-      "index": 11,
+      "index": 10,
       "isSplash": false,
       "label": "Menu 3M",
       "closeWhenClickOverlay": true,
@@ -480317,7 +481716,7 @@
         "LARGE": "layout_8870",
         "SMALL": "layout_8872"
       },
-      "index": 13,
+      "index": 12,
       "isSplash": false,
       "label": "Menu: Care - Utah Faults",
       "closeWhenClickOverlay": true,
@@ -480357,7 +481756,7 @@
         "LARGE": "layout_8876",
         "SMALL": "layout_8878"
       },
-      "index": 14,
+      "index": 13,
       "isSplash": false,
       "label": "Menu: Care - EQ Damages",
       "closeWhenClickOverlay": true,
@@ -480397,7 +481796,7 @@
         "LARGE": "layout_8897",
         "SMALL": "layout_8899"
       },
-      "index": 17,
+      "index": 16,
       "isSplash": false,
       "label": "Menu: Prepare - Life Changes",
       "closeWhenClickOverlay": true,
@@ -480437,7 +481836,7 @@
         "LARGE": "layout_8903",
         "SMALL": "layout_8905"
       },
-      "index": 16,
+      "index": 15,
       "isSplash": false,
       "label": "Menu: Prepare - M 7.0 EQ Scenario",
       "closeWhenClickOverlay": true,
@@ -480477,7 +481876,7 @@
         "LARGE": "layout_8909",
         "SMALL": "layout_8911"
       },
-      "index": 15,
+      "index": 14,
       "isSplash": false,
       "label": "Menu: Prepare - Utah Building Safety",
       "closeWhenClickOverlay": true,
@@ -480517,7 +481916,7 @@
         "LARGE": "layout_8921",
         "SMALL": "layout_8923"
       },
-      "index": 18,
+      "index": 17,
       "isSplash": false,
       "label": "Menu: To Do - Before a Quake",
       "closeWhenClickOverlay": true,
@@ -480557,7 +481956,7 @@
         "LARGE": "layout_8927",
         "SMALL": "layout_8929"
       },
-      "index": 19,
+      "index": 18,
       "isSplash": false,
       "label": "Menu: To Do - During a Quake",
       "closeWhenClickOverlay": true,
@@ -480597,7 +481996,7 @@
         "LARGE": "layout_8933",
         "SMALL": "layout_8935"
       },
-      "index": 20,
+      "index": 19,
       "isSplash": false,
       "label": "Menu: To Do - After a Quake",
       "closeWhenClickOverlay": true,
@@ -481416,7 +482815,7 @@
       "secondary": "#363636"
     }
   },
-  "timestamp": 1758815708008,
+  "timestamp": 1761056243519,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
