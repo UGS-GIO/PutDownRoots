@@ -191921,8 +191921,8 @@
             }
           },
           "bbox": {
-            "left": 7,
-            "width": 5,
+            "left": 6,
+            "width": 6,
             "height": "248px"
           }
         }
@@ -192704,8 +192704,8 @@
           "type": "WIDGET",
           "widgetId": "widget_14256",
           "bbox": {
-            "width": "714px",
-            "height": 360
+            "width": "623px",
+            "height": 443
           },
           "setting": {
             "autoProps": {
@@ -201046,8 +201046,8 @@
           "type": "WIDGET",
           "widgetId": "widget_15187",
           "bbox": {
-            "width": "707px",
-            "height": "323px"
+            "width": "474px",
+            "height": "374px"
           },
           "setting": {
             "autoProps": {
@@ -201088,8 +201088,8 @@
         "7",
         "3",
         "4",
-        "6",
-        "5"
+        "5",
+        "6"
       ],
       "setting": {
         "padding": {
@@ -203391,8 +203391,8 @@
           "type": "WIDGET",
           "widgetId": "widget_15413",
           "bbox": {
-            "width": "298px",
-            "height": "320px"
+            "width": "352px",
+            "height": "311px"
           },
           "setting": {
             "autoProps": {
@@ -204074,7 +204074,8 @@
             "autoProps": {
               "height": "AUTO"
             }
-          }
+          },
+          "isPending": true
         },
         "11": {
           "type": "WIDGET",
@@ -204084,6 +204085,19 @@
             "height": "30.00px"
           },
           "isPending": true
+        },
+        "12": {
+          "type": "WIDGET",
+          "widgetId": "widget_17893",
+          "bbox": {
+            "width": "1295px",
+            "height": "348px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
@@ -204107,6 +204121,7 @@
         "5",
         "6",
         "8",
+        "12",
         "10"
       ]
     },
@@ -204131,7 +204146,21 @@
       "label": "Default",
       "order": [
         "0"
-      ]
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_8019": {
       "content": {
@@ -204601,7 +204630,21 @@
       "order": [
         "0",
         "2"
-      ]
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_8026": {
       "content": {
@@ -208122,19 +208165,6 @@
             }
           }
         },
-        "19": {
-          "type": "WIDGET",
-          "widgetId": "widget_15705",
-          "bbox": {
-            "width": "162px",
-            "height": "409px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
-        },
         "20": {
           "type": "WIDGET",
           "widgetId": "widget_15710",
@@ -208188,7 +208218,6 @@
         "16",
         "17",
         "18",
-        "19",
         "20"
       ]
     },
@@ -208645,60 +208674,50 @@
             }
           }
         },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_15703",
-          "bbox": {
-            "width": "418px",
-            "height": "45px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          }
-        },
         "3": {
           "type": "WIDGET",
-          "widgetId": "widget_15704",
+          "widgetId": "widget_15707",
           "bbox": {
-            "width": "276.00px",
-            "height": "48px"
+            "width": "77px",
+            "height": "77px"
           },
           "setting": {
             "autoProps": {
+              "height": "CUSTOM",
               "width": "CUSTOM"
             },
             "style": {
               "alignSelf": "center"
             }
           }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "setting": {
-        "padding": {
-          "number": [
-            20,
-            20,
-            20,
-            20
-          ],
-          "unit": "px"
         },
-        "space": 5
-      }
-    },
-    "layout_8147": {
-      "content": {
-        "3": {
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_15708",
+          "bbox": {
+            "width": "456px",
+            "height": "36.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_15709",
+          "bbox": {
+            "width": "456px",
+            "height": "45.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "6": {
           "type": "WIDGET",
           "widgetId": "widget_15706",
           "bbox": {
@@ -208714,47 +208733,16 @@
             }
           }
         },
-        "4": {
+        "7": {
           "type": "WIDGET",
-          "widgetId": "widget_15707",
+          "widgetId": "widget_17915",
           "bbox": {
-            "width": "77px",
-            "height": "77px"
-          },
-          "setting": {
-            "heightMode": "fixed",
-            "aspectRatio": "100:100",
-            "autoProps": {
-              "width": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_15708",
-          "bbox": {
-            "width": "376px",
-            "height": "46px"
+            "width": "300px",
+            "height": "472px"
           },
           "setting": {
             "autoProps": {
               "height": "AUTO"
-            }
-          }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_15709",
-          "bbox": {
-            "width": "376px",
-            "height": "45px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
             }
           }
         }
@@ -208762,10 +208750,13 @@
       "type": "COLUMN",
       "label": "Default",
       "order": [
+        "0",
+        "1",
+        "7",
+        "3",
         "4",
         "5",
-        "6",
-        "3"
+        "6"
       ],
       "setting": {
         "padding": {
@@ -211672,19 +211663,6 @@
               "height": "AUTO"
             }
           }
-        },
-        "20": {
-          "type": "WIDGET",
-          "widgetId": "widget_15918",
-          "bbox": {
-            "width": "320px",
-            "height": "213px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
         }
       },
       "type": "COLUMN",
@@ -211712,8 +211690,7 @@
         "16",
         "17",
         "18",
-        "19",
-        "20"
+        "19"
       ]
     },
     "layout_8236": {
@@ -212169,75 +212146,6 @@
             }
           }
         },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_15916",
-          "bbox": {
-            "width": "418px",
-            "height": "45px"
-          },
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_15917",
-          "bbox": {
-            "width": "150.00px",
-            "height": "35.00px"
-          },
-          "setting": {
-            "autoProps": {
-              "width": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          }
-        }
-      },
-      "type": "COLUMN",
-      "label": "Default",
-      "order": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "setting": {
-        "padding": {
-          "number": [
-            20,
-            20,
-            20,
-            20
-          ],
-          "unit": "px"
-        },
-        "space": 5
-      }
-    },
-    "layout_8242": {
-      "content": {
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_15919",
-          "bbox": {
-            "width": "150.00px",
-            "height": "35.00px"
-          },
-          "setting": {
-            "autoProps": {
-              "width": "CUSTOM"
-            },
-            "style": {
-              "alignSelf": "center"
-            }
-          }
-        },
         "4": {
           "type": "WIDGET",
           "widgetId": "widget_15920",
@@ -212246,8 +212154,6 @@
             "height": "64px"
           },
           "setting": {
-            "heightMode": "fixed",
-            "aspectRatio": 1,
             "autoProps": {
               "width": "CUSTOM"
             },
@@ -212260,8 +212166,8 @@
           "type": "WIDGET",
           "widgetId": "widget_15921",
           "bbox": {
-            "width": "376px",
-            "height": "46px"
+            "width": "334px",
+            "height": "34px"
           },
           "setting": {
             "autoProps": {
@@ -212273,8 +212179,38 @@
           "type": "WIDGET",
           "widgetId": "widget_15922",
           "bbox": {
-            "width": "376px",
-            "height": "45px"
+            "width": "334px",
+            "height": "34px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_15919",
+          "bbox": {
+            "width": "150px",
+            "height": "35px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM",
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "8": {
+          "type": "WIDGET",
+          "widgetId": "widget_17914",
+          "bbox": {
+            "width": "300px",
+            "height": "393px"
           },
           "setting": {
             "autoProps": {
@@ -212286,10 +212222,13 @@
       "type": "COLUMN",
       "label": "Default",
       "order": [
+        "0",
+        "1",
+        "8",
         "4",
         "5",
         "6",
-        "3"
+        "7"
       ],
       "setting": {
         "padding": {
@@ -233161,17 +233100,401 @@
       "order": [
         "0"
       ]
+    },
+    "layout_9190": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17894",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 4,
+            "height": "380px"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17899",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 4,
+            "width": 8,
+            "height": "380px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "3"
+      ]
+    },
+    "layout_9191": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17895",
+          "bbox": {
+            "width": "77px",
+            "height": "77px"
+          },
+          "setting": {
+            "heightMode": "fixed",
+            "aspectRatio": 1,
+            "autoProps": {
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17896",
+          "bbox": {
+            "width": "376px",
+            "height": "46px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17897",
+          "bbox": {
+            "width": "376px",
+            "height": "45px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_17898",
+          "bbox": {
+            "width": "276px",
+            "height": "48px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "setting": {
+        "padding": {
+          "number": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "unit": "px"
+        },
+        "space": 5
+      }
+    },
+    "layout_9192": {
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17903",
+          "bbox": {
+            "width": "276.00px",
+            "height": "48px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_17909",
+          "bbox": {
+            "width": "418px",
+            "height": "335px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "4",
+        "3"
+      ],
+      "setting": {
+        "padding": {
+          "number": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "unit": "px"
+        },
+        "space": 5
+      }
+    },
+    "layout_9194": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17910",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 6,
+            "height": "315px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17911",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 6,
+            "width": 6,
+            "height": 315
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_9195": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17900",
+          "bbox": {
+            "width": "77px",
+            "height": "77px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17901",
+          "bbox": {
+            "width": "174px",
+            "height": "36px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17902",
+          "bbox": {
+            "width": "174px",
+            "height": "82px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_9196": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_17906",
+          "bbox": {
+            "width": "77px",
+            "height": "77px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "CUSTOM"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17907",
+          "bbox": {
+            "width": "164px",
+            "height": "36px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17908",
+          "bbox": {
+            "width": "164px",
+            "height": "315px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_9197": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_15916",
+          "bbox": {
+            "width": "334px",
+            "height": "59px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "setting": {
+        "space": 0,
+        "padding": {
+          "number": [
+            0,
+            0,
+            15,
+            0
+          ],
+          "unit": "px"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9198": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_15703",
+          "bbox": {
+            "width": "456px",
+            "height": "82px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "padding": {
+          "number": [
+            0,
+            0,
+            20,
+            0
+          ],
+          "unit": "px"
+        }
+      }
     }
   },
   "exbVersion": "1.17.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/roots_theme/",
   "forBuilderAttributes": {
-    "lockLayout": true,
+    "lockLayout": false,
     "viewPortSize": {
       "LARGE": {
-        "width": 1440,
-        "height": 900
+        "width": 1920,
+        "height": 1080
       },
       "MEDIUM": {
         "width": 601,
@@ -424718,7 +425041,7 @@
       "version": "1.17.0",
       "label": "Text 3643",
       "config": {
-        "text": "<p><em style=\"font-size: 15px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Graphic courtesy of Envision Utah.</em></p>",
+        "text": "<p style=\"text-align: center;\"><em style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 15px;\">Graphic courtesy of Envision Utah.</em></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -432877,7 +433200,7 @@
       "version": "1.17.0",
       "label": "Text 3937",
       "config": {
-        "text": "<p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Bank statements.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Insurance policies.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">- A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Bank statements.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Insurance policies.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -434937,7 +435260,7 @@
       "version": "1.17.0",
       "label": "Text 4024",
       "config": {
-        "text": "<p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Bank statements.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Insurance policies.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">- A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Bank statements.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Insurance policies.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -437798,7 +438121,7 @@
       "version": "1.17.0",
       "label": "Text 4120",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - Bank statements.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - Insurance policies.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">- A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - Documentation for stocks, bonds, and other investments.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - Bank statements.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - Credit card numbers.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - Insurance policies.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - A list of phone numbers for financial institutions and credit card companies where you have accounts.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - An inventory of your household possessions.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> - Appraisals of valuable jewelry, art, antiques, and heirlooms.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -439814,7 +440137,7 @@
     "widget_15475": {
       "uri": "widgets/layout/row/",
       "version": "1.17.0",
-      "label": "Row 1391",
+      "label": "Row 1391 step 5 6 7 old",
       "config": {
         "space": 10,
         "style": {
@@ -445031,7 +445354,7 @@
       "label": "Button 446",
       "config": {
         "functionConfig": {
-          "text": "Jump to Section",
+          "text": "Jump to Page",
           "textExpression": null,
           "linkParam": {
             "linkType": "PAGE",
@@ -445234,132 +445557,13 @@
       },
       "id": "widget_15703"
     },
-    "widget_15704": {
-      "uri": "widgets/common/button/",
-      "version": "1.17.0",
-      "label": "Button 447",
-      "config": {
-        "functionConfig": {
-          "text": "Jump to Section",
-          "textExpression": null,
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_64",
-            "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "useCustom": true,
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#09a9eb",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "",
-                "width": "0px"
-              },
-              "text": {
-                "color": "var(--black)",
-                "size": "16px",
-                "bold": true
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "var(--black)",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#0676a5",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "16px",
-                "bold": true
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_15704"
-    },
-    "widget_15705": {
-      "uri": "widgets/layout/column/",
-      "version": "1.17.0",
-      "label": "Column 2579",
-      "config": {
-        "space": {
-          "distance": 5,
-          "unit": "px"
-        },
-        "style": {
-          "padding": {
-            "number": [
-              20,
-              20,
-              20,
-              20
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_15705",
-      "style": {
-        "background": {
-          "color": "#e6f3ec",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
-        },
-        "boxShadow": {
-          "presetStyle": "shadow"
-        }
-      },
-      "layouts": {
-        "DEFAULT": {
-          "MEDIUM": "layout_8147"
-        }
-      }
-    },
     "widget_15706": {
       "uri": "widgets/common/button/",
       "version": "1.17.0",
       "label": "Button 448",
       "config": {
         "functionConfig": {
-          "text": "Jump to Section",
+          "text": "Jump to Page",
           "textExpression": null,
           "linkParam": {
             "linkType": "PAGE",
@@ -445447,14 +445651,27 @@
             "originalName": "3-telephones.png",
             "imgSourceType": "BY_URL",
             "cropParam": {
+              "cropPosition": {
+                "x": -31,
+                "y": 0
+              },
+              "cropZoom": 0.05150501672240803,
               "svgViewBox": "0 0 28 28",
               "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
-              "cropShape": "circle"
+              "cropShape": "circle",
+              "cropPixel": {
+                "x": 1263.3831168831168,
+                "y": 0,
+                "width": 1495,
+                "height": 1495
+              },
+              "cropType": "FAKE"
             }
           },
           "imgSourceType": "",
           "srcExpression": null,
-          "imageDisplayQualityMode": "ORIGINAL"
+          "imageDisplayQualityMode": "ORIGINAL",
+          "isCropped": true
         },
         "styleConfig": {}
       },
@@ -449589,7 +449806,7 @@
       "label": "Button 459",
       "config": {
         "functionConfig": {
-          "text": "Jump to Section",
+          "text": "Jump to Page",
           "textExpression": null,
           "linkParam": {
             "linkType": "PAGE",
@@ -449805,132 +450022,13 @@
       },
       "id": "widget_15916"
     },
-    "widget_15917": {
-      "uri": "widgets/common/button/",
-      "version": "1.17.0",
-      "label": "Button 460",
-      "config": {
-        "functionConfig": {
-          "text": "Jump to Section",
-          "textExpression": null,
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_64",
-            "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "useCustom": true,
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "#09a9eb",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "",
-                "width": "0px"
-              },
-              "text": {
-                "color": "var(--black)",
-                "size": "12px",
-                "bold": true
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "color": "var(--black)",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "#0676a5",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "12px",
-                "bold": true
-              },
-              "borderRadius": {
-                "unit": "px",
-                "number": [
-                  2,
-                  2,
-                  2,
-                  2
-                ]
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_15917"
-    },
-    "widget_15918": {
-      "uri": "widgets/layout/column/",
-      "version": "1.17.0",
-      "label": "Column 2628",
-      "config": {
-        "space": {
-          "distance": 5,
-          "unit": "px"
-        },
-        "style": {
-          "padding": {
-            "number": [
-              20,
-              20,
-              20,
-              20
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_15918",
-      "style": {
-        "background": {
-          "color": "#e6f3ec",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
-        },
-        "boxShadow": {
-          "presetStyle": "shadow"
-        }
-      },
-      "layouts": {
-        "DEFAULT": {
-          "SMALL": "layout_8242"
-        }
-      }
-    },
     "widget_15919": {
       "uri": "widgets/common/button/",
       "version": "1.17.0",
       "label": "Button 461",
       "config": {
         "functionConfig": {
-          "text": "Jump to Section",
+          "text": "Jump to Page",
           "textExpression": null,
           "linkParam": {
             "linkType": "PAGE",
@@ -479133,6 +479231,585 @@
         "styleConfig": {}
       },
       "id": "widget_17892"
+    },
+    "widget_17893": {
+      "uri": "widgets/layout/row/",
+      "version": "1.17.0",
+      "label": "Row 1575",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_17893",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9190"
+        }
+      }
+    },
+    "widget_17894": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3011",
+      "config": {
+        "space": {
+          "distance": 5,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "number": [
+              20,
+              20,
+              20,
+              20
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17894",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9191"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#f3e7e6",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "boxShadow": {
+          "presetStyle": "shadow"
+        }
+      }
+    },
+    "widget_17895": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1796",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://geology.utah.gov/apps/roots/images/3-joedesk.jpg",
+            "originalUrl": "https://geology.utah.gov/apps/roots/images/3-joedesk.jpg",
+            "fileName": "3-joedesk.jpg",
+            "originalName": "3-joedesk.jpg",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17895"
+    },
+    "widget_17896": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4869",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--secondary); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Step Five</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17896"
+    },
+    "widget_17897": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4870",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: var(--danger); font-family: &quot;Avenir Next&quot;;\">Drop, Cover, and Hold On</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17897"
+    },
+    "widget_17898": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 664",
+      "config": {
+        "functionConfig": {
+          "text": "Jump to Page",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_63",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#09a9eb",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--black)",
+                "size": "16px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--black)",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#0676a5",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "16px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17898"
+    },
+    "widget_17899": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3012",
+      "config": {
+        "space": {
+          "distance": 5,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "number": [
+              20,
+              20,
+              20,
+              20
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17899",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9192"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#e6f3ec",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "boxShadow": {
+          "presetStyle": "shadow"
+        }
+      }
+    },
+    "widget_17900": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1797",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://geology.utah.gov/apps/roots/images/3-gaswrench.png",
+            "originalUrl": "https://geology.utah.gov/apps/roots/images/3-gaswrench.png",
+            "fileName": "3-gaswrench.png",
+            "originalName": "3-gaswrench.png",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17900",
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "borderRadius": {
+          "number": [
+            100,
+            100,
+            100,
+            100
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_17901": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4871",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--secondary); font-family: &quot;Avenir Next&quot;;\">Step Six</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17901"
+    },
+    "widget_17902": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4872",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--success); font-size: 26px; font-family: &quot;Avenir Next&quot;;\">Assure Life Safety, Hazards, and Damage</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17902"
+    },
+    "widget_17903": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Button 665",
+      "config": {
+        "functionConfig": {
+          "text": "Jump to Page",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_64",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#09a9eb",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--black)",
+                "size": "16px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "var(--black)",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#0676a5",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "16px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_17903"
+    },
+    "widget_17906": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Image 1798",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "https://geology.utah.gov/apps/roots/images/3-telephones.png",
+            "originalUrl": "https://geology.utah.gov/apps/roots/images/3-telephones.png",
+            "fileName": "3-telephones.png",
+            "originalName": "3-telephones.png",
+            "imgSourceType": "BY_URL",
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_17906"
+    },
+    "widget_17907": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4873",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: var(--secondary); font-family: &quot;Avenir Next&quot;;\">Step Seven</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17907"
+    },
+    "widget_17908": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4874",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--success); font-size: 26px; font-family: &quot;Avenir Next&quot;;\">Put Your Plan into Action</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "placeholder": "Double click to edit text"
+      },
+      "id": "widget_17908"
+    },
+    "widget_17909": {
+      "uri": "widgets/layout/row/",
+      "version": "1.17.0",
+      "label": "Row 1576",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_17909",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9194"
+        }
+      }
+    },
+    "widget_17910": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3014",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17910",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9195"
+        }
+      }
+    },
+    "widget_17911": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3015",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17911",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9196"
+        }
+      }
+    },
+    "widget_17914": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3016",
+      "config": {
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              15,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17914",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_9197"
+        }
+      }
+    },
+    "widget_17915": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3017",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              20,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17915",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_9198"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -482815,7 +483492,7 @@
       "secondary": "#363636"
     }
   },
-  "timestamp": 1762194230144,
+  "timestamp": 1762796069361,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
