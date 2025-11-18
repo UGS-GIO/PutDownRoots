@@ -157692,20 +157692,6 @@
     },
     "layout_5300": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_9015",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 5,
-            "width": 7,
-            "height": "72px"
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_9019",
@@ -157718,6 +157704,20 @@
             "left": 0,
             "width": 5,
             "height": "72px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17916",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "600px"
           }
         }
       },
@@ -157739,7 +157739,7 @@
       },
       "order": [
         "1",
-        "0"
+        "2"
       ]
     },
     "layout_5301": {
@@ -157917,6 +157917,11 @@
           "bbox": {
             "width": "714px",
             "height": "51px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
@@ -158313,20 +158318,6 @@
     },
     "layout_5313": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_9039",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 5,
-            "width": 7,
-            "height": "893px"
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_9043",
@@ -158339,6 +158330,20 @@
             "left": 0,
             "width": 5,
             "height": "72px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17918",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "600px"
           }
         }
       },
@@ -158360,7 +158365,7 @@
       },
       "order": [
         "1",
-        "0"
+        "2"
       ]
     },
     "layout_5314": {
@@ -161914,16 +161919,39 @@
               "height": "CUSTOM"
             }
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17920",
+          "bbox": {
+            "width": "496px",
+            "height": "51px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "setting": {
-        "space": 0
+        "space": 0,
+        "padding": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
       },
       "order": [
         "0",
-        "2"
+        "2",
+        "3"
       ]
     },
     "layout_5503": {
@@ -162338,16 +162366,39 @@
               "height": "STRETCH"
             }
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17921",
+          "bbox": {
+            "width": "360px",
+            "height": "70px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "1",
-        "0"
+        "0",
+        "2"
       ],
       "setting": {
-        "space": 0
+        "space": 0,
+        "padding": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
       }
     },
     "layout_5512": {
@@ -164626,16 +164677,39 @@
               "height": "AUTO"
             }
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17922",
+          "bbox": {
+            "width": "360px",
+            "height": "70px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "setting": {
-        "space": 0
+        "space": 0,
+        "padding": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
       }
     },
     "layout_5643": {
@@ -165000,16 +165074,39 @@
               "height": "AUTO"
             }
           }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_17923",
+          "bbox": {
+            "width": "360px",
+            "height": "70.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
         }
       },
       "type": "COLUMN",
       "label": "Default",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "setting": {
-        "space": 0
+        "space": 0,
+        "padding": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        }
       }
     },
     "layout_5651": {
@@ -192826,7 +192923,7 @@
             "heightMode": "fixed",
             "aspectRatio": 0.02,
             "style": {
-              "alignSelf": "center"
+              "alignSelf": "flex-start"
             }
           }
         }
@@ -233484,6 +233581,93 @@
           "unit": "px"
         }
       }
+    },
+    "layout_9199": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_9015",
+          "bbox": {
+            "width": "288px",
+            "height": "820px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17917",
+          "bbox": {
+            "width": "360px",
+            "height": "70px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "space": 0
+      }
+    },
+    "layout_9200": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_9039",
+          "bbox": {
+            "width": "288px",
+            "height": "831px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17919",
+          "bbox": {
+            "width": "360px",
+            "height": "70px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        }
+      },
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "setting": {
+        "padding": {
+          "number": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "unit": "px"
+        },
+        "space": 0
+      }
     }
   },
   "exbVersion": "1.17.0",
@@ -233497,8 +233681,8 @@
         "height": 1080
       },
       "MEDIUM": {
-        "width": 601,
-        "height": 962
+        "width": 834,
+        "height": 1112
       },
       "SMALL": {
         "width": 414,
@@ -256459,7 +256643,7 @@
       "version": "1.17.0",
       "label": "Text 512",
       "config": {
-        "text": "<p style=\"line-height: 1.5; text-align: left;\"><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Websites</strong></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://quake.utah.edu\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 20px; font-family: &quot;Avenir Next&quot;;\">https://quake.utah.edu</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p><p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquakes.utah.gov\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 20px; font-family: &quot;Avenir Next&quot;;\">https://earthquakes.utah.gov</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p><p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">U.S. Geological Survey:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquake.usgs.gov\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 20px; font-family: &quot;Avenir Next&quot;;\">https://earthquake.usgs.gov</a></p>",
+        "text": "<p style=\"text-align: left; line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Websites</strong></p><p style=\"text-align: left; line-height: 1.5;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">U of U Seismograph Stations:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> </span><a href=\"https://quake.utah.edu\" target=\"_blank\" data-uniqueid=\"fceb0100_efa6_83e8_816e_26724011f375\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fquake.utah.edu%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px;\">https://quake.utah.edu</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">earthquakes.utah.gov:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"673714e7_2db3_1b35_679c_4df2c059235d\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px;\">https://earthquakes.utah.gov</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">U.S. Geological Survey:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> </span><a href=\"https://earthquake.usgs.gov\" target=\"_blank\" data-uniqueid=\"ac511439_f6a5_91ce_f768_7f10e217926e\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fearthquake.usgs.gov%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px;\">https://earthquake.usgs.gov</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -257858,7 +258042,7 @@
       "version": "1.17.0",
       "label": "Text 539",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">This web experience is adapted from “Putting Down Roots in Earthquake Country, 2nd Edition,” which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://www.earthquakecountry.org/booklets/</a><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> for all versions.</span></p>",
+        "text": "<p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">This web experience is adapted from “Putting Down Roots in Earthquake Country, 2nd Edition,” which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_blank\" data-uniqueid=\"ec8e3098_127e_b623_bbfd_f1508f8390fd\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.earthquakecountry.org%2Fbooklets%2F%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">https://www.earthquakecountry.org/booklets/</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\"> for all versions.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -258002,7 +258186,7 @@
       "version": "1.17.0",
       "label": "Text 542",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">﻿For physical copies, contact:</strong></p><p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">The Natural Resources Map &amp; Bookstore</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">1594 W. North Temple</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Salt Lake City, Utah 84116</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Phone (801) 537-3320, toll-free (888) UTAH MAP</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Email: geostore@utah.gov</span></p><p style=\"text-align: center;\"><a href=\"https://www.utahmapstore.com\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">https://www.utahmapstore.com</a></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">﻿For physical copies, contact:</strong></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">The Natural Resources Map &amp; Bookstore</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">1594 W. North Temple</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">Salt Lake City, Utah 84116</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">Phone (801) 537-3320, toll-free (888) UTAH MAP</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">Email: geostore@utah.gov</span></p><p style=\"text-align: center;\"><a href=\"https://www.utahmapstore.com\" target=\"_blank\" data-uniqueid=\"0852a71a_0860_bebf_3100_eaa28e9fdc52\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.utahmapstore.com%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\">https://www.utahmapstore.com</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -263152,7 +263336,7 @@
       "version": "1.17.0",
       "label": "Text 653",
       "config": {
-        "text": "<p style=\"text-align: left; line-height: 1.2;\"><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Social Media</strong></p><p style=\"text-align: left; line-height: 1.2;\"><br></p><p style=\"line-height: 1.2; text-align: left;\"><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"372fbcaf_1b2b_29b7_d81e_359bef06b351\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 20px; font-family: &quot;Avenir Next&quot;;\">@UUSSquake</a></p><p style=\"line-height: 1.2; text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.2;\"><strong style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Utah Seismic Safety Commission:</strong><span style=\"color: rgb(0, 0, 0); font-size: 20px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UtahSeismic\" target=\"_blank\" data-uniqueid=\"89f6dba8_fe99_49d3_04f5_b04be2e5bf27\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUtahSeismic%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 20px; font-family: &quot;Avenir Next&quot;;\">@UtahSeismic</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p>",
+        "text": "<p style=\"line-height: 1.2; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Social Media</strong></p><p style=\"line-height: 1.2; text-align: left;\"><br></p><p style=\"text-align: left; line-height: 1.2;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">U of U Seismograph Stations:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"85ee35a8_8dc6_eed7_7650_97ba1b89b5d5\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px;\">@UUSSquake</a></p><p style=\"text-align: left; line-height: 1.2;\"><br></p><p style=\"line-height: 1.2; text-align: left;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\">Utah Seismic Safety Commission:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UtahSeismic\" target=\"_blank\" data-uniqueid=\"1c33d59f_bd0e_b777_02e0_4430966bd66b\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUtahSeismic%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 20px;\">@UtahSeismic</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -264452,7 +264636,7 @@
       "version": "1.17.0",
       "label": "Text 659",
       "config": {
-        "text": "<p style=\"text-align: left;\"><span style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">This web experience is adapted from \"</span><a href=\"https://ugspub.nr.utah.gov/publications/non_lib_pubs/putting-down-roots.pdf\" target=\"_blank\" data-uniqueid=\"f1ddba8c_1901_b365_7527_af73a1e754a3\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fugspub.nr.utah.gov%2Fpublications%2Fnon_lib_pubs%2Fputting-down-roots.pdf%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Putting Down Roots in Earthquake Country, 2nd Edition</a><span style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">,\" which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">https://www.earthquakecountry.org/booklets/</a><span style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\"> for all versions.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><a href=\"page_30\" target=\"_self\" data-uniqueid=\"d94bb2a8_b758_f863_8b0e_0cb620c8ede3\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_30%22%2C%22openType%22%3A%22_self%22%7D\" style=\"background-color: rgb(11, 11, 11); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">﻿View Acknowledgments</a></p>",
+        "text": "<p style=\"text-align: left;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\">This web experience is adapted from \"</span><a href=\"https://ugspub.nr.utah.gov/publications/non_lib_pubs/putting-down-roots.pdf\" target=\"_blank\" data-uniqueid=\"f1ddba8c_1901_b365_7527_af73a1e754a3\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fugspub.nr.utah.gov%2Fpublications%2Fnon_lib_pubs%2Fputting-down-roots.pdf%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\">Putting Down Roots in Earthquake Country, 2nd Edition</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\">,\" which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_blank\" data-uniqueid=\"c145d1e9_33a5_4d76_e2b7_f40d5eae5e9c\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.earthquakecountry.org%2Fbooklets%2F%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\">https://www.earthquakecountry.org/booklets/</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\"> for all versions.</span></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><a href=\"page_30\" target=\"_self\" data-uniqueid=\"d94bb2a8_b758_f863_8b0e_0cb620c8ede3\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22PAGE%22%2C%22value%22%3A%22page_30%22%2C%22openType%22%3A%22_self%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; background-color: rgb(11, 11, 11);\">﻿View Acknowledgments</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -368931,7 +369115,7 @@
       "version": "1.17.0",
       "label": "Text 1580",
       "config": {
-        "text": "<p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://quake.utah.edu\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://quake.utah.edu</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquakes.utah.gov\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://earthquakes.utah.gov</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">U.S. Geological Survey:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquake.usgs.gov\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://earthquake.usgs.gov</a></p>",
+        "text": "<p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://quake.utah.edu\" target=\"_blank\" data-uniqueid=\"2f9341a1_f4b5_8f56_9a0b_e658a45cacf8\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fquake.utah.edu%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://quake.utah.edu</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">earthquakes.utah.gov:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquakes.utah.gov\" target=\"_blank\" data-uniqueid=\"0a49a062_5c1d_df02_4054_b14c2f0a07ec\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fearthquakes.utah.gov%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://earthquakes.utah.gov</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p><p style=\"line-height: 1.5; text-align: left;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">U.S. Geological Survey:</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://earthquake.usgs.gov\" target=\"_blank\" data-uniqueid=\"49360410_30e4_5635_002c_e9076047fd3b\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fearthquake.usgs.gov%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://earthquake.usgs.gov</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -368971,7 +369155,7 @@
       "version": "1.17.0",
       "label": "Text 1581",
       "config": {
-        "text": "<p style=\"text-align: left; line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\">U of U Seismograph Stations:</strong><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px; color: rgb(0, 0, 0);\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"aff08f91_1457_f3f4_9b08_192ceafa3d24\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px;\">@UUSSquake</a></p><p style=\"line-height: 1.5; text-align: left;\"><br></p>",
+        "text": "<p style=\"text-align: left; line-height: 1.5;\"><strong style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">U of U Seismograph Stations:</strong><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> </span><a href=\"https://twitter.com/UUSSquake\" target=\"_blank\" data-uniqueid=\"e36f026e_7446_0b85_ea8b_5a48d25ecc5d\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Ftwitter.com%2FUUSSquake%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">@UUSSquake</a></p><p style=\"text-align: left; line-height: 1.5;\"><br></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -370222,7 +370406,7 @@
       "version": "1.17.0",
       "label": "Text 1590",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">﻿For physical copies, contact:</strong></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">The Natural Resources Map &amp; Bookstore</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">1594 W. North Temple</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Salt Lake City, Utah 84116</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Phone (801) 537-3320, toll-free (888) UTAH MAP</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Email: geostore@utah.gov</span></p><p style=\"text-align: center;\"><a href=\"https://www.utahmapstore.com\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://www.utahmapstore.com</a></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">﻿For physical copies, contact:</strong></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">The Natural Resources Map &amp; Bookstore</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">1594 W. North Temple</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Salt Lake City, Utah 84116</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Phone (801) 537-3320, toll-free (888) UTAH MAP</span></p><p style=\"text-align: center;\"><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Email: geostore@utah.gov</span></p><p style=\"text-align: center;\"><a href=\"https://www.utahmapstore.com\" target=\"_blank\" data-uniqueid=\"edae3d06_dbfc_9b4c_22e9_1f22d9a30b8d\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.utahmapstore.com%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px;\">https://www.utahmapstore.com</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -370248,7 +370432,7 @@
       "version": "1.17.0",
       "label": "Text 1592",
       "config": {
-        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">This web experience is adapted from “Putting Down Roots in Earthquake Country, 2nd Edition,” which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://www.earthquakecountry.org/booklets/</a><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> for all versions.</span></p>",
+        "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\">This web experience is adapted from “Putting Down Roots in Earthquake Country, 2nd Edition,” which was adapted from California editions of “Putting Down Roots in Earthquake Country,” originally written by Lucy Jones (U.S. Geological Survey [USGS]) with later revisions by Mark Benthien (Southern California Earthquake Center [SCEC]) and others, first published by SCEC in 1995, and updated yearly since 2004. The booklet was first adapted for the San Francisco Bay Region in 2005 by Mary Lou Zoback (USGS) and others, and published by the USGS. See </span><a href=\"https://www.earthquakecountry.org/booklets/\" target=\"_blank\" data-uniqueid=\"4cc2e5ef_5d04_a04e_6462_1fc0001c571c\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.earthquakecountry.org%2Fbooklets%2F%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-size: 14px;\">https://www.earthquakecountry.org/booklets/</a><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Avenir Next&quot;;\"> for all versions.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -378066,7 +378250,7 @@
       "version": "1.17.0",
       "label": "Text 1726",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">Ahora disponible en espa</strong><strong style=\"color: var(--light); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">ñol</strong></p><p style=\"line-height: 1.5; text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 15px; font-family: &quot;Avenir Next&quot;;\">(Also available in Spanish)</strong></p><p style=\"line-height: 1; text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 10px; font-family: &quot;Avenir Next&quot;;\">﻿</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\"><a href=\"https://ugspub.nr.utah.gov/publications/non_lib_pubs/putting-down-roots-es.pdf\" target=\"_blank\" data-uniqueid=\"53c28b25_e9ff_c6a6_9294_3d97fc5b0afc\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fugspub.nr.utah.gov%2Fpublications%2Fnon_lib_pubs%2Fputting-down-roots-es.pdf%22%2C%22expression%22%3Anull%7D\">DESCARGAR PDF</a></strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">Ahora disponible en espa</strong><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: var(--light);\">ñol</strong></p><p style=\"text-align: center; line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: rgb(0, 0, 0);\">(Also available in Spanish)</strong></p><p style=\"text-align: center; line-height: 1;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 10px; color: rgb(0, 0, 0);\">﻿</strong></p><p style=\"text-align: center;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\"><a href=\"https://ugspub.nr.utah.gov/publications/non_lib_pubs/putting-down-roots-es.pdf\" target=\"_blank\" data-uniqueid=\"9fd56378_0a8e_c8b8_d592_f07f97860cef\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fugspub.nr.utah.gov%2Fpublications%2Fnon_lib_pubs%2Fputting-down-roots-es.pdf%22%2C%22expression%22%3Anull%7D\">DESCARGAR PDF</a></strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -384235,8 +384419,11 @@
         },
         "style": {
           "padding": {
-            "space": [
-              10
+            "number": [
+              0,
+              0,
+              0,
+              0
             ],
             "unit": "px"
           },
@@ -384763,8 +384950,11 @@
         },
         "style": {
           "padding": {
-            "space": [
-              10
+            "number": [
+              0,
+              0,
+              0,
+              0
             ],
             "unit": "px"
           },
@@ -387301,8 +387491,11 @@
         },
         "style": {
           "padding": {
-            "space": [
-              10
+            "number": [
+              0,
+              0,
+              0,
+              0
             ],
             "unit": "px"
           },
@@ -387790,8 +387983,11 @@
         },
         "style": {
           "padding": {
-            "space": [
-              10
+            "number": [
+              0,
+              0,
+              0,
+              0
             ],
             "unit": "px"
           },
@@ -403928,7 +404124,7 @@
       "version": "1.17.0",
       "label": "Text 3012",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><strong style=\"background-color: rgba(0, 0, 0, 0); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">What is UUSS?</strong><span style=\"background-color: rgba(0, 0, 0, 0); color: var(--dark-800); font-family: &quot;Avenir Next&quot;;\">﻿</span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"background-color: rgba(0, 0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">The University of Utah Seismograph Stations (UUSS) is a research, educational, and public service entity that operates a monitoring network of more than 200 regional and urban seismic stations in Utah and neighboring areas, including the Yellowstone National Park region. For more information about UUSS, recent earthquakes, and other earthquake information, see </span><a href=\"https://quake.utah.edu.\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"background-color: rgba(0, 0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://quake.utah.edu.</a></p>",
+        "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; background-color: rgba(0, 0, 0, 0);\">What is UUSS?</strong><span style=\"font-family: &quot;Avenir Next&quot;; background-color: rgba(0, 0, 0, 0); color: var(--dark-800);\">﻿</span></p><p style=\"line-height: 1.5;\"><br></p><p style=\"line-height: 1.5;\"><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; background-color: rgba(0, 0, 0, 0);\">The University of Utah Seismograph Stations (UUSS) is a research, educational, and public service entity that operates a monitoring network of more than 200 regional and urban seismic stations in Utah and neighboring areas, including the Yellowstone National Park region. For more information about UUSS, recent earthquakes, and other earthquake information, see </span><a href=\"https://quake.utah.edu.\" target=\"_blank\" data-uniqueid=\"cc5f08b8_ce22_079e_60cc_de3398731ff6\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fquake.utah.edu.%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; background-color: rgba(0, 0, 0, 0);\">https://quake.utah.edu</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; background-color: rgba(0, 0, 0, 0);\">.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -430821,7 +431017,7 @@
       "version": "1.17.0",
       "label": "Text 3935",
       "config": {
-        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Will your insurance cover your losses?</strong></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Homeowner’s and renter’s insurance policies do not cover losses related to earthquakes. Businesses also need insurance, since they are generally only eligible for post-disaster loans, not grants.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">There is uncertainty attached to insuring against earthquakes.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">A separate earthquake insurance policy is one way to help protect your home, in addition to seismic retrofitting.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Earthquake insurance may help with additional living expenses in the days and weeks after earthquakes.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Relatively few (&lt; 20%) Utah homeowners have earthquake insurance.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Most insurers do not provide new earthquake coverage after there has been a recent earthquake. When there has been recent seismic activity, people rush to add earthquake coverage, then after the panic dies down, they may cancel their coverage. The exposure to risk and the expense to insurers are usually greater than the premium earned, so insurers choose not to issue coverage in these circumstances.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">For more information about insurance, visit the Utah Insurance Department's website at: </span><a href=\"https://insurance.utah.gov/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://insurance.utah.gov/</a></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Will your insurance cover your losses?</strong></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Homeowner’s and renter’s insurance policies do not cover losses related to earthquakes. Businesses also need insurance, since they are generally only eligible for post-disaster loans, not grants.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">There is uncertainty attached to insuring against earthquakes.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">A separate earthquake insurance policy is one way to help protect your home, in addition to seismic retrofitting.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Earthquake insurance may help with additional living expenses in the days and weeks after earthquakes.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Relatively few (&lt; 20%) Utah homeowners have earthquake insurance.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Most insurers do not provide new earthquake coverage after there has been a recent earthquake. When there has been recent seismic activity, people rush to add earthquake coverage, then after the panic dies down, they may cancel their coverage. The exposure to risk and the expense to insurers are usually greater than the premium earned, so insurers choose not to issue coverage in these circumstances.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">For more information about insurance, visit the Utah Insurance Department's website at: </span><a href=\"https://insurance.utah.gov/\" target=\"_blank\" data-uniqueid=\"3a209fa8_11e0_3d0e_0086_3f1724d7ae3e\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Finsurance.utah.gov%2F%22%2C%22expression%22%3Anull%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: var(--primary-600);\">https://insurance.utah.gov/</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\"> </span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -433472,7 +433668,7 @@
       "version": "1.17.0",
       "label": "Text 4033",
       "config": {
-        "text": "<p><strong style=\"color: var(--danger); font-size: 24px; font-family: &quot;Avenir Next&quot;;\">Will your insurance cover your losses?</strong></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Homeowner’s and renter’s insurance policies do not cover losses related to earthquakes. Businesses also need insurance, since they are generally only eligible for post-disaster loans, not grants.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">There is uncertainty attached to insuring against earthquakes.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">A separate earthquake insurance policy is one way to help protect your home, in addition to seismic retrofitting.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Earthquake insurance may help with additional living expenses in the days and weeks after earthquakes.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Relatively few (&lt; 20%) Utah homeowners have earthquake insurance.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">Most insurers do not provide new earthquake coverage after there has been a recent earthquake. When there has been recent seismic activity, people rush to add earthquake coverage, then after the panic dies down, they may cancel their coverage. The exposure to risk and the expense to insurers are usually greater than the premium earned, so insurers choose not to issue coverage in these circumstances.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 18px; font-family: &quot;Avenir Next&quot;;\">For more information about insurance, visit the Utah Insurance Department's website at: </span><a href=\"https://insurance.utah.gov/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://insurance.utah.gov/</a></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 24px; color: var(--danger);\">Will your insurance cover your losses?</strong></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Homeowner’s and renter’s insurance policies do not cover losses related to earthquakes. Businesses also need insurance, since they are generally only eligible for post-disaster loans, not grants.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">There is uncertainty attached to insuring against earthquakes.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">A separate earthquake insurance policy is one way to help protect your home, in addition to seismic retrofitting.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Earthquake insurance may help with additional living expenses in the days and weeks after earthquakes.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Relatively few (&lt; 20%) Utah homeowners have earthquake insurance.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">Most insurers do not provide new earthquake coverage after there has been a recent earthquake. When there has been recent seismic activity, people rush to add earthquake coverage, then after the panic dies down, they may cancel their coverage. The exposure to risk and the expense to insurers are usually greater than the premium earned, so insurers choose not to issue coverage in these circumstances.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px; color: rgb(0, 0, 0);\">For more information about insurance, visit the Utah Insurance Department's website at: </span><a href=\"https://insurance.utah.gov/\" target=\"_blank\" data-uniqueid=\"53a4ff72_ef7c_2e6c_dd63_8e566827d232\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Finsurance.utah.gov%2F%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">https://insurance.utah.gov/</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -438921,7 +439117,7 @@
       "version": "1.17.0",
       "label": "Text 4149",
       "config": {
-        "text": "<p><strong style=\"font-size: 24px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">A Special Note About Children</strong></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Before the next earthquake, spend time with your kids to discuss what might occur. Involve them in developing your disaster plan, preparing disaster kits (ask them what game or toy they want to include), and practicing “DROP, COVER, AND HOLD ON.”</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">In the days after a quake, kids need extra contact and support. They may be frightened and under great stress, and aftershocks won’t let them forget the experience. Parents may have to leave children with others in order to deal with the emergency, and this can be scary. Whenever possible, include your children in the earthquake recovery process.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Resources for kids to learn about disaster preparedness:</span></p><p><a href=\"https://www.ready.gov/kids\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://www.ready.gov/kids</a></p><p><a href=\"https://earthquake.usgs.gov/learn/kids/\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://earthquake.usgs.gov/learn/kids/</a></p>",
+        "text": "<p><strong style=\"font-size: 24px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">A Special Note About Children</strong></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Before the next earthquake, spend time with your kids to discuss what might occur. Involve them in developing your disaster plan, preparing disaster kits (ask them what game or toy they want to include), and practicing “DROP, COVER, AND HOLD ON.”</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">In the days after a quake, kids need extra contact and support. They may be frightened and under great stress, and aftershocks won’t let them forget the experience. Parents may have to leave children with others in order to deal with the emergency, and this can be scary. Whenever possible, include your children in the earthquake recovery process.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Resources for kids to learn about disaster preparedness:</span></p><p><a href=\"https://www.ready.gov/kids\" target=\"_blank\" data-uniqueid=\"59f38d81_2d27_fa84_bc2c_2d6eea53fa46\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.ready.gov%2Fkids%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">https://www.ready.gov/kids</a></p><p><a href=\"https://earthquake.usgs.gov/learn/kids/\" target=\"_blank\" data-uniqueid=\"66e5b9c5_fddb_9a01_687e_78aa7eafdc7e\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fearthquake.usgs.gov%2Flearn%2Fkids%2F%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">https://earthquake.usgs.gov/learn/kids/</a><span style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\"> </span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -438934,7 +439130,7 @@
       "version": "1.17.0",
       "label": "Text 4150",
       "config": {
-        "text": "<p><strong style=\"font-size: 20px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">DROP</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Immediately drop to the floor</span></p><p><br></p><p><strong style=\"font-size: 20px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">COVER</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Crawl to a location providing cover over head, such as a desk, table, or chair</span></p><p><br></p><p><strong style=\"font-size: 20px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">HOLD ON</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Hold on to a leg of the furniture until the shaking stops</span></p><p><br></p><p><strong style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">People in wheelchairs or using walkers</strong><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> should stay seated and lock the wheels, then cover their head with their arms and hands.</span></p><p><br></p><p><span style=\"font-size: 18px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Practice Drop, Cover, and Hold On during the Great Utah ShakeOut or another earthquake drill. Great earthquake drill tips can be found at </span><a href=\"https://www.shakeout.org/Utah.\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 18px; font-family: &quot;Avenir Next&quot;;\">https://www.shakeout.org/Utah.</a></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 20px;\">DROP</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">: Immediately drop to the floor</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 20px;\">COVER</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">: Crawl to a location providing cover over head, such as a desk, table, or chair</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 20px;\">HOLD ON</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">: Hold on to a leg of the furniture until the shaking stops</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">People in wheelchairs or using walkers</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\"> should stay seated and lock the wheels, then cover their head with their arms and hands.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 18px;\">Practice Drop, Cover, and Hold On during the Great Utah ShakeOut or another earthquake drill. Great earthquake drill tips can be found at </span><a href=\"https://www.shakeout.org/Utah.\" target=\"_blank\" data-uniqueid=\"2b023e91_5079_af5c_5308_35a80f555e3d\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.shakeout.org%2FUtah.%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 18px;\">https://www.shakeout.org/Utah.</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -447909,7 +448105,7 @@
       "version": "1.17.0",
       "label": "Text 4286",
       "config": {
-        "text": "<p><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">DROP</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Immediately drop to the floor</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">COVER</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Crawl to a location providing cover over head, such as a desk, table, or chair</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">HOLD ON</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">: Hold on to a leg of the furniture until the shaking stops</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">People in wheelchairs or using walkers</strong><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\"> should stay seated and lock the wheels, then cover their head with their arms and hands.</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0); font-family: &quot;Avenir Next&quot;;\">Practice Drop, Cover, and Hold On during the Great Utah ShakeOut or another earthquake drill. Great earthquake drill tips can be found at </span><a href=\"https://www.shakeout.org/Utah.\" target=\"_self\" data-uniqueid=\"\" data-dsid=\"\" data-link=\"null\" style=\"font-size: 14px; font-family: &quot;Avenir Next&quot;;\">https://www.shakeout.org/Utah.</a></p>",
+        "text": "<p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">DROP</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">: Immediately drop to the floor</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">COVER</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">: Crawl to a location providing cover over head, such as a desk, table, or chair</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">HOLD ON</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">: Hold on to a leg of the furniture until the shaking stops</span></p><p><br></p><p><strong style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">People in wheelchairs or using walkers</strong><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\"> should stay seated and lock the wheels, then cover their head with their arms and hands.</span></p><p><br></p><p><span style=\"font-family: &quot;Avenir Next&quot;; color: rgb(0, 0, 0); font-size: 14px;\">Practice Drop, Cover, and Hold On during the Great Utah ShakeOut or another earthquake drill. Great earthquake drill tips can be found at </span><a href=\"https://www.shakeout.org/Utah.\" target=\"_blank\" data-uniqueid=\"f472ee03_de5f_a4e1_c4f3_1e8cecaba539\" data-dsid=\"\" data-link=\"%7B%22value%22%3A%22https%3A%2F%2Fwww.shakeout.org%2FUtah.%22%2C%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%7D\" style=\"font-family: &quot;Avenir Next&quot;; font-size: 14px;\">https://www.shakeout.org/Utah.</a></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -477108,6 +477304,136 @@
           "MEDIUM": "layout_9198"
         }
       }
+    },
+    "widget_17916": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3018",
+      "config": {
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17916",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9199"
+        }
+      }
+    },
+    "widget_17917": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4875",
+      "config": {
+        "text": "<p><em style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\">View the most current fault and hazards data on the Utah <a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a>.</em></p>",
+        "style": {
+          "wrap": true,
+          "color": "#000000"
+        }
+      },
+      "id": "widget_17917"
+    },
+    "widget_17918": {
+      "uri": "widgets/layout/column/",
+      "version": "1.17.0",
+      "label": "Column 3019",
+      "config": {
+        "space": {
+          "distance": 0,
+          "unit": "px"
+        },
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_17918",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_9200"
+        }
+      }
+    },
+    "widget_17919": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4876",
+      "config": {
+        "text": "<p><em style=\"font-size: 15px; color: var(--light); font-family: &quot;Avenir Next&quot;;\">View the most current fault and hazards data on the Utah </em><em style=\"font-size: 15px; font-family: &quot;Avenir Next&quot;;\"><a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a>.</em></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_17919"
+    },
+    "widget_17920": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4877",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><em style=\"font-family: &quot;Avenir Next&quot;; color: var(--light); font-size: 15px;\">View the most current fault and hazards data on the Utah </em><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\"><a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a></em><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: var(--light);\">.</em></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_17920"
+    },
+    "widget_17921": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4878",
+      "config": {
+        "text": "<p>﻿<em style=\"font-family: &quot;Avenir Next&quot;; color: var(--light); font-size: 15px;\">View the most current fault and hazards data on the Utah </em><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px;\"><a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a></em><em style=\"font-family: &quot;Avenir Next&quot;; font-size: 15px; color: var(--light);\">.</em></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_17921"
+    },
+    "widget_17922": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4879",
+      "config": {
+        "text": "<p><em style=\"font-size: 12px; color: var(--light); font-family: &quot;Avenir Next&quot;;\">View the most current fault and hazards data on the Utah </em><em style=\"font-size: 12px; font-family: &quot;Avenir Next&quot;;\"><a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a></em><em style=\"font-size: 12px; font-family: &quot;Avenir Next&quot;; color: var(--light);\">.</em></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_17922"
+    },
+    "widget_17923": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Text 4880",
+      "config": {
+        "text": "<p>﻿<em style=\"font-size: 12px; color: var(--light); font-family: &quot;Avenir Next&quot;;\">View the most current fault and hazards data on the Utah </em><em style=\"font-size: 12px; font-family: &quot;Avenir Next&quot;;\"><a href=\"https://ut-dnr-ugs-maps-dev.web.app/hazards\" target=\"_blank\" data-uniqueid=\"86328126_f1cb_d02f_865b_6d982477e507\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fut-dnr-ugs-maps-dev.web.app%2Fhazards%22%2C%22expression%22%3Anull%7D\">Geologic Hazards Portal</a></em><em style=\"font-size: 12px; font-family: &quot;Avenir Next&quot;; color: var(--light);\">.</em></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_17923"
     }
   },
   "widgetsManifest": {},
@@ -480790,7 +481116,7 @@
       "secondary": "#363636"
     }
   },
-  "timestamp": 1762796069361,
+  "timestamp": 1763424355331,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
@@ -480816,7 +481142,7 @@
     "sticky": true,
     "backgroundColor": "var(--secondary-300)"
   },
-  "publishTimestamp": 1762796195989,
+  "publishTimestamp": 1763424458551,
   "urlParams": {
     "general": {
       "dataSelection": {
