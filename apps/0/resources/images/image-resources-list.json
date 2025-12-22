@@ -727,5 +727,19 @@
     "isUseCompress": false,
     "originalWidth": 957,
     "originalHeight": 783
+  },
+  "1765982876485": {
+    "originalName": "puttingdownrootsmain.jpg",
+    "fileName": "1765982876485.jpg",
+    "size": 141791,
+    "url": "${appResourceUrl}/images/background_setting/1765982876485.jpg",
+    "created": 1765982876485,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1765982876485",
+    "fileFormat": "image/jpeg",
+    "isUseCompress": false,
+    "originalWidth": 1283,
+    "originalHeight": 350
   }
 }
