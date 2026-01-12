@@ -237867,7 +237867,7 @@
       "version": "1.17.0",
       "label": "Text 17",
       "config": {
-        "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-family: &quot;Avenir Next&quot;; font-size: 45px; color: var(--danger);\">Utah is Earthquake Country </strong></p>",
+        "text": "<p style=\"line-height: 1.5;\"><strong style=\"color: var(--danger); font-size: 45px; font-family: &quot;Avenir Next&quot;;\">Utah is Earthquake Country</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -490947,7 +490947,7 @@
       "secondary": "#363636"
     }
   },
-  "timestamp": 1767649999055,
+  "timestamp": 1767639392552,
   "footer": {
     "layout": {
       "LARGE": "layout_1124",
