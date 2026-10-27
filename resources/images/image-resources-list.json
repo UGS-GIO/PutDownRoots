@@ -741,5 +741,47 @@
     "isUseCompress": false,
     "originalWidth": 1283,
     "originalHeight": 350
+  },
+  "1787779845275": {
+    "originalName": "DEM-Website-Header-May-26-scaled.png",
+    "fileName": "1787779845275.png",
+    "size": 67495,
+    "url": "${appResourceUrl}/images/widget_2290/1787779845275.png",
+    "created": 1787779845275,
+    "resourcesPrefix": "images/widget_2290",
+    "referredIds": [],
+    "originId": "1787779845275",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 2560,
+    "originalHeight": 416
+  },
+  "1787779903927": {
+    "originalName": "UGS_MottoIcon_Logo_Template-BLU.png",
+    "fileName": "1787779903927.png",
+    "size": 39128,
+    "url": "${appResourceUrl}/images/widget_2295/1787779903927.png",
+    "created": 1787779903927,
+    "resourcesPrefix": "images/widget_2295",
+    "referredIds": [],
+    "originId": "1787779903927",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1568,
+    "originalHeight": 433
+  },
+  "1787780170788": {
+    "originalName": "SM-UGSAcroynm_MottoIcon_Logo_Template-BLU.png",
+    "fileName": "1787780170788.png",
+    "size": 29530,
+    "url": "${appResourceUrl}/images/widget_5087/1787780170788.png",
+    "created": 1787780170788,
+    "resourcesPrefix": "images/widget_5087",
+    "referredIds": [],
+    "originId": "1787780170788",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1335,
+    "originalHeight": 447
   }
 }
